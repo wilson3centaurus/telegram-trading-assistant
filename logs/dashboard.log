@@ -1,0 +1,212 @@
+2025-07-07 02:47:42,683 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 02:47:42,684 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 02:47:42,684 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:47:43,004 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:47:43,020 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:50:20,815 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\signal_parser.py', reloading
+2025-07-07 02:50:20,873 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:50:21,501 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:50:21,511 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:50:22,537 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\signal_parser.py', reloading
+2025-07-07 02:50:22,612 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:50:22,937 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:50:22,938 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:50:23,976 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\signal_parser.py', reloading
+2025-07-07 02:50:24,121 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:50:24,510 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:50:24,517 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:50:30,555 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\signal_parser.py', reloading
+2025-07-07 02:50:30,594 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:50:31,010 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:50:31,015 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:50:54,148 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\signal_parser.py', reloading
+2025-07-07 02:50:54,200 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:50:54,656 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:50:54,657 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:50:55,677 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\signal_parser.py', reloading
+2025-07-07 02:50:55,753 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:50:56,068 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:50:56,073 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:50:57,092 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\signal_parser.py', reloading
+2025-07-07 02:50:57,158 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:50:57,459 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:50:57,463 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:51:00,491 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\signal_parser.py', reloading
+2025-07-07 02:51:00,541 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:51:00,862 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:51:00,868 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:51:04,898 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\signal_parser.py', reloading
+2025-07-07 02:51:04,959 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:51:05,253 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:51:05,253 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:51:15,344 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\signal_parser.py', reloading
+2025-07-07 02:51:15,395 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:51:15,682 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:51:15,689 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:52:09,980 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:52:10,054 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:52:10,498 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:52:10,503 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:52:11,521 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:52:11,568 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:52:11,892 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:52:11,893 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:52:12,923 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:52:12,979 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:52:13,321 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:52:13,326 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:52:14,349 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:52:14,433 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:52:14,755 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:52:14,760 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:52:36,892 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:52:36,935 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:52:37,211 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:52:37,211 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:52:38,240 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:52:38,289 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:52:38,664 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:52:38,673 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:52:39,699 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:52:39,789 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:52:40,055 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:52:40,061 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:52:45,114 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:52:45,153 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:52:45,433 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:52:45,437 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:52:46,457 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:52:46,512 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:52:46,909 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:52:46,919 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:52:47,946 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:52:47,997 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:52:48,263 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:52:48,268 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:52:52,300 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:52:52,345 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:52:52,625 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:52:52,631 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:53:01,691 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:53:01,752 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:53:02,041 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:53:02,042 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:53:03,062 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:53:03,108 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:53:03,379 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:53:03,386 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:53:10,450 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:53:10,493 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:53:10,810 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:53:10,826 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:53:13,862 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:53:13,920 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:53:14,208 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:53:14,216 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:54:31,710 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:54:31,774 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:54:32,062 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:54:32,066 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:55:01,243 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:55:01,315 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:55:01,668 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:55:01,676 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:55:04,703 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:55:04,756 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:55:05,075 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:55:05,080 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:56:38,584 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\trading_api.py', reloading
+2025-07-07 02:56:38,643 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:56:38,928 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:56:38,935 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:57:30,280 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:57:30,375 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:57:30,871 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:57:30,880 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:59:08,427 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:59:08,479 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:59:08,813 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:59:08,818 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:59:10,838 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:59:10,881 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:59:11,231 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:59:11,238 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:59:12,257 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:59:12,311 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:59:12,636 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:59:12,641 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:59:55,900 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:59:55,942 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:59:56,256 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:59:56,268 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 02:59:59,313 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 02:59:59,381 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 02:59:59,738 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 02:59:59,753 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:00:03,810 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:00:03,866 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:00:04,214 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:00:04,221 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:00:24,365 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:00:24,422 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:00:24,785 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:00:24,792 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:00:53,924 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:00:53,979 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:00:54,308 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:00:54,315 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:01:03,381 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:01:03,422 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:01:03,870 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:01:03,879 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:01:09,926 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:01:09,980 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:01:10,327 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:01:10,334 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:01:17,383 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:01:17,441 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:01:17,774 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:01:17,781 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:01:26,859 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:01:26,929 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:01:27,279 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:01:27,284 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:01:30,311 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:01:30,364 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:01:30,714 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:01:30,722 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:01:31,743 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:01:31,814 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:01:32,190 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:01:32,195 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:01:38,247 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:01:38,369 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:01:38,722 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:01:38,729 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:01:48,804 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:01:48,873 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:01:49,227 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:01:49,232 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:01:52,261 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:01:52,320 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:01:52,608 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:01:52,612 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:02:58,987 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\notifier.py', reloading
+2025-07-07 03:02:59,046 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:02:59,352 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:02:59,352 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:03:18,471 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\telegram_monitor.py', reloading
+2025-07-07 03:03:18,509 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:03:18,884 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:03:18,890 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:03:44,006 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\main.py', reloading
+2025-07-07 03:03:44,079 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:03:44,408 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:03:44,415 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:03:45,441 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\backend\\main.py', reloading
+2025-07-07 03:03:45,530 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 03:03:45,931 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 03:03:45,938 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 03:06:16,810 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 03:06:16,851 - werkzeug - INFO -  * Restarting with stat

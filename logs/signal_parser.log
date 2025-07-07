@@ -1,0 +1,19 @@
+2025-07-07 03:03:49,832 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-07 03:03:57,370 - trading_api - INFO - Successfully connected to MT5
+2025-07-07 03:04:01,068 - notifier - ERROR - Telegram notification failed: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-07-07 03:04:01,074 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-07 03:04:01,080 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-07-07 03:04:03,187 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-07-07 03:04:04,412 - telethon.client.users - INFO - Phone migrated to 4
+2025-07-07 03:04:04,720 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 4
+2025-07-07 03:04:04,960 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-07-07 03:04:04,960 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-07-07 03:04:04,960 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 03:04:07,108 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-07 10:14:58,720 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2025-07-07 10:15:12,173 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-07 10:15:12,198 - trading_api - INFO - Successfully connected to MT5
+2025-07-07 10:15:13,012 - notifier - ERROR - Telegram notification failed: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-07-07 10:15:13,012 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-07 10:15:13,012 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 10:15:13,253 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
