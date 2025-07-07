@@ -1,0 +1,672 @@
+can you please esplain this BS??? i was making my system right, but i fogot to test it and i left the room and i left it running and now i came back with my telegram account suspended and a lot of channels and groups joined, all written in chinese, iam more confused???
+`PS C:\Users\XO\Desktop\telegram-trading-assistant\backend> python main.py
+2025-07-07 14:26:09,388 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-07 14:26:09,407 - trading_api - INFO - Successfully connected to MT5
+2025-07-07 14:26:10,488 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-07 14:26:10,488 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 14:26:10,768 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-07 14:26:12,939 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-07 14:26:12,939 - telegram_monitor - INFO - Monitoring Telegram channels...
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4ca' in position 74: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 29, in handler
+    logger.info(f"New message received: {message}")
+Message: 'New message received: 📊CATCH SPIKE 📊\n\n🔼BUY BOOM 300🔼\n🔼APPLY PROPER RISK🔼\n🔼TP@ OPEN🔼\n\n\n🔺🔹🔺🔹🔺🔹🔺'
+Arguments: ()
+2025-07-07 15:40:16,338 - telegram_monitor - INFO - New message received: 📊CATCH SPIKE 📊
+
+🔼BUY BOOM 300🔼
+🔼APPLY PROPER RISK🔼
+🔼TP@ OPEN🔼
+
+
+🔺🔹🔺🔹🔺🔹🔺
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4ca' in position 88: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 32, in handler
+    signal = SignalParser.parse_signal(message)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\signal_parser.py", line 33, in parse_signal
+    logger.warning(f"No signal pattern found in message: {message}")
+Message: 'No signal pattern found in message: 📊CATCH SPIKE 📊\n\n🔼BUY BOOM 300🔼\n🔼APPLY PROPER RISK🔼\n🔼TP@ OPEN🔼\n\n\n🔺🔹🔺🔹🔺🔹🔺'
+Arguments: ()
+2025-07-07 15:40:16,340 - signal_parser - WARNING - No signal pattern found in message: 📊CATCH SPIKE 📊
+
+🔼BUY BOOM 300🔼
+🔼APPLY PROPER RISK🔼
+🔼TP@ OPEN🔼
+
+
+🔺🔹🔺🔹🔺🔹🔺
+2025-07-07 15:46:11,676 - telegram_monitor - INFO - New message received: 
+2025-07-07 15:46:11,677 - signal_parser - WARNING - No signal pattern found in message: 
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 129: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 29, in handler
+    logger.info(f"New message received: {message}")
+Message: "New message received: **Round 2, Sniper Entry Secured!\nGOLD RUNNING 55+ PIPS✅**\n\nLet's collect partial **PROFITS** and set the rest at **BREAKEVEN** for a zero-risk trade‼️\n\n**We really are catching the twist and turn of the MARKET!** 📈📉\n\n➡️**@AdamTr raderfx**"
+Arguments: ()
+2025-07-07 15:46:11,679 - telegram_monitor - INFO - New message received: **Round 2, Sniper Entry Secured!
+GOLD RUNNING 55+ PIPS✅**
+
+Let's collect partial **PROFITS** and set the rest at **BREAKEVEN** for a zero-risk trade‼️
+
+**We really are catching the twist and turn of the MARKET!** 📈📉
+
+➡️**@AdamTraderfx**
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 143: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 32, in handler
+    signal = SignalParser.parse_signal(message)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\signal_parser.py", line 33, in parse_signal
+    logger.warning(f"No signal pattern found in message: {message}")
+Message: "No signal pattern found in message: **Round 2, Sniper Entry Secured!\nGOLD RUNNING 55+ PIPS✅**\n\nLet's collect partial **PROFITS** and set the rest at **BREAKEVEN** for a zero-risk trade‼️\n\n**We really are catching the twist and turn of the MARKET!** 📈📉\\n\n➡️**@AdamTraderfx**"
+Arguments: ()
+2025-07-07 15:46:11,696 - signal_parser - WARNING - No signal pattern found in message: **Round 2, Sniper Entry Secured!
+GOLD RUNNING 55+ PIPS✅**
+
+Let's collect partial **PROFITS** and set the rest at **BREAKEVEN** for a zero-risk trade‼️
+
+**We really are catching the twist and turn of the MARKET!** 📈📉
+
+➡️**@AdamTraderfx**
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 78-108: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 29, in handler
+    logger.info(f"New message received: {message}")
+Message: 'New message received: C500✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅\n\nTake\xa0 profits 🔥🔥🔥🔥\n\n@fadzi2008 ✉️\n\n⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️'
+Arguments: ()
+2025-07-07 15:49:16,501 - telegram_monitor - INFO - New message received: C500✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ ✅✅✅
+
+Take  profits 🔥🔥🔥🔥
+
+@fadzi2008 ✉️
+
+⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 92-122: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 32, in handler
+    signal = SignalParser.parse_signal(message)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\signal_parser.py", line 33, in parse_signal
+    logger.warning(f"No signal pattern found in message: {message}")
+Message: 'No signal pattern found in message: C500✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅\n\nTake\xa0 profits 🔥🔥🔥🔥\n\n@fadzi2008 ✉️\n\n⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️'
+Arguments: ()
+2025-07-07 15:49:16,506 - signal_parser - WARNING - No signal pattern found in message: C500✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅ ✅✅✅✅✅✅✅✅✅✅
+
+Take  profits 🔥🔥🔥🔥
+
+@fadzi2008 ✉️
+
+⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+2025-07-07 15:52:16,924 - telethon.client.updates - INFO - Got difference for channel 1259295717 updates
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 153-156: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 29, in handler
+    logger.info(f"New message received: {message}")
+Message: 'New message received: Adam you are amazing for your services, I will recommend you to all my friends 💪🏻💪🏻'
+Arguments: ()
+2025-07-07 15:58:12,064 - telegram_monitor - INFO - New message received: Adam you are amazing for your services, I will recommend you to all my friends 💪🏻💪🏻
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 167-170: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 32, in handler
+    signal = SignalParser.parse_signal(message)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\signal_parser.py", line 33, in parse_signal
+    logger.warning(f"No signal pattern found in message: {message}")
+Message: 'No signal pattern found in message: Adam you are amazing for your services, I will recommend you to all my friends 💪🏻💪🏻' 
+Arguments: ()
+2025-07-07 15:58:12,072 - signal_parser - WARNING - No signal pattern found in message: Adam you are amazing for your services, I will recommend you to all my friends 💪🏻💪🏻
+2025-07-07 16:07:17,535 - telethon.client.updates - INFO - Got difference for channel 1880253938 updates
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 92-94: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 29, in handler
+    logger.info(f"New message received: {message}")
+Message: 'New message received: $283 profit today 💵💵💵'
+Arguments: ()
+2025-07-07 16:13:16,864 - telegram_monitor - INFO - New message received: $283 profit today 💵💵💵
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 106-108: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 32, in handler
+    signal = SignalParser.parse_signal(message)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\signal_parser.py", line 33, in parse_signal
+    logger.warning(f"No signal pattern found in message: {message}")
+Message: 'No signal pattern found in message: $283 profit today 💵💵💵'
+Arguments: ()
+2025-07-07 16:13:16,871 - signal_parser - WARNING - No signal pattern found in message: $283 profit today 💵💵💵
+2025-07-07 16:22:17,535 - telethon.client.updates - INFO - Got difference for channel 1880253938 updates
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 79-108: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 29, in handler
+    logger.info(f"New message received: {message}")
+Message: 'New message received: B300 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅\n\nTake Profits 💵💵💵\n\n@fadzi2008 ✉️1\n\n⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️'
+Arguments: ()
+2025-07-07 16:39:17,477 - telegram_monitor - INFO - New message received: B300 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+Take Profits 💵💵💵
+
+@fadzi2008 ✉️1
+
+⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 93-122: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 32, in handler
+    signal = SignalParser.parse_signal(message)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\signal_parser.py", line 33, in parse_signal
+    logger.warning(f"No signal pattern found in message: {message}")
+Message: 'No signal pattern found in message: B300 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅\n\nTake Profits 💵💵💵\n\n@fadzi2008 ✉️1\n\n⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️'
+Arguments: ()
+2025-07-07 16:39:17,484 - signal_parser - WARNING - No signal pattern found in message: B300 ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+Take Profits 💵💵💵
+
+@fadzi2008 ✉️1
+
+⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4ca' in position 74: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 29, in handler
+    logger.info(f"New message received: {message}")
+Message: 'New message received: 📊CATCH SPIKE 📊\n\n🔽SELL CRASH 900🔽\n🔽APPLY PROPER RISK🔽\n🔽TP@ OPEN🔽\n\n\n💫💫💫💫💫💫'
+Arguments: ()
+2025-07-07 16:39:17,492 - telegram_monitor - INFO - New message received: 📊CATCH SPIKE 📊
+
+🔽SELL CRASH 900🔽
+🔽APPLY PROPER RISK🔽
+🔽TP@ OPEN🔽
+
+
+💫💫💫💫💫💫
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4ca' in position 88: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 32, in handler
+    signal = SignalParser.parse_signal(message)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\signal_parser.py", line 33, in parse_signal
+    logger.warning(f"No signal pattern found in message: {message}")
+Message: 'No signal pattern found in message: 📊CATCH SPIKE 📊\n\n🔽SELL CRASH 900🔽\n🔽APPLY PROPER RISK🔽\n🔽TP@ OPEN🔽\n\n\n💫💫💫💫💫💫'
+Arguments: ()
+2025-07-07 16:39:17,496 - signal_parser - WARNING - No signal pattern found in message: 📊CATCH SPIKE 📊
+
+🔽SELL CRASH 900🔽
+🔽APPLY PROPER RISK🔽
+🔽TP@ OPEN🔽
+
+
+💫💫💫💫💫💫
+2025-07-07 16:40:33,096 - telegram_monitor - INFO - New message received: 
+2025-07-07 16:40:33,096 - signal_parser - WARNING - No signal pattern found in message: 
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 136: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 29, in handler
+    logger.info(f"New message received: {message}")
+Message: "New message received: **We Only Provide High Quality Setups!\nGOLD RUNNING 130+ PIPS✅**\n\nLet's collect partial **PROFITS** and set the rest at **BREAKEVEN** for a zero-risk trade‼️\n\n🔘**You will hardly find a signal trading group of this quality. This is  why 95% of the days we finish winning money**🚀\n\n✅️**@AdamTraderfx**"
+Arguments: ()
+2025-07-07 16:40:33,098 - telegram_monitor - INFO - New message received: **We Only Provide High Quality Setups!
+GOLD RUNNING 130+ PIPS✅**
+
+Let's collect partial **PROFITS** and set the rest at **BREAKEVEN** for a zero-risk trade‼️
+
+🔘**You will hardly find a signal trading group of this quality. This is why 95% of the days we finish winning money**🚀
+
+✅️**@AdamTraderfx**
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 150: character maps to <undefined>
+Call stack:
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\windows_events.py", line 322, in run_forever
+    super().run_forever()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 641, in run_forever
+    self._run_once()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 1986, in _run_once
+    handle._run()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 570, in _dispatch_update
+    await callback(event)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 32, in handler
+    signal = SignalParser.parse_signal(message)
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\signal_parser.py", line 33, in parse_signal
+    logger.warning(f"No signal pattern found in message: {message}")
+Message: "No signal pattern found in message: **We Only Provide High Quality Setups!\nGOLD RUNNING 130+ PIPS✅**\n\nLet's collect partial **PROFITS** and set the rest at **BREAKEVEN** for a zero-risk trade‼️\n\n🔘**You will hardly find a signal trading group of this quaality. This is why 95% of the days we finish winning money**🚀\n\n✅️**@AdamTraderfx**"
+Arguments: ()
+2025-07-07 16:40:33,102 - signal_parser - WARNING - No signal pattern found in message: **We Only Provide High Quality Setups!
+GOLD RUNNING 130+ PIPS✅**
+
+Let's collect partial **PROFITS** and set the rest at **BREAKEVEN** for a zero-risk trade‼️
+
+🔘**You will hardly find a signal trading group of this quality. This is why 95% of the days we finish winning money**🚀
+
+✅️**@AdamTraderfx**
+2025-07-07 16:40:59,174 - telethon.client.updates - INFO - Got difference for channel 1880253938 updates
+2025-07-07 16:52:17,777 - telethon.client.updates - WARNING - Cannot get difference since the account is likely misusing the session: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID fe685355. See the FAQ for more details. Remaining bytes: b'USh\xfe  \x00\x00\x08\x00\x00\x00\xe8\xfa\x08g\x00\x00\x00\x00"\xd2\xee\xe1x\x12\xfc\xbc\x14THE KING OF GOLD\xf0\x9f\x8f\x86\x00\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\xd4\xc71\x1b\xdeX\xc8P\x11\x01\x08\x08\xac\x8d\x1f\x95\x8c6\xff\x00^\xd4QE\x00\x7f\x00\x00\x04\x00\x00\x00\xb2\x91\xfag\x15\xc4\xb5\x1c\x02\x00\x00\x00"\x14\x0b\x02+@\x02\x02\x10\x10\x00\x00\x00o\x9f\n\x00\x00\x00\x00\xca\x9c\xe5(\xfa=\rl\rSpam Info Bot\x00\x00\x07SpamBot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x00o\x9f\n\x13\x01\x08\x08\xb9\xf2l\xe86m\xf6\xff\x009\xa2\x8a*Nv\xcf\x04\x00\x00\x00\x04\x00\x00\x00\x0ft\xfd\x01"\x14\x0b\x02+@\x00\x02\x10\x00\x00\x00\x18\xac\'\x08\x00\x00\x00\x00\xb4\xa6\xe6\x90@C\xac+\x07Channel\x0bChannel_Bot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x18\xac\'\x08\x10\x01\x08\x08\xb1\xf2\xf9_\xedg4QEp3\xad\x1f\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00>*l\xa5\xa0\x03\x00\x00\x00\x00\x00\x00 \xdfkh\x02\x00\x00\x00H\x00\x00\x00'
+2025-07-07 16:52:17,783 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-07 16:52:17,786 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-07 16:52:17,803 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+Traceback (most recent call last):
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 35, in <module>
+    asyncio.run(main())
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\main.py", line 32, in main
+    await monitor.start()
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\telegram_monitor.py", line 46, in start
+    await self.client.run_until_disconnected()
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 38, in _run_until_disconnected
+    raise self._updates_error
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\updates.py", line 308, in _update_loop   
+    diff = await self(get_diff)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\users.py", line 30, in __call__
+    return await self._call(self._sender, request, ordered=ordered)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\client\users.py", line 92, in _call
+    result = await future
+             ^^^^^^^^^^^^
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\network\mtprotosender.py", line 641, in _handle_rpc_result
+    result = state.request.read_result(reader)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\tlobject.py", line 219, in read_result       
+    return reader.tgread_object()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 142, in tgread_object
+    return clazz.from_reader(self)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\tl\types\updates.py", line 259, in from_reader  
+    _x = reader.tgread_object()
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\XO\AppData\Local\Programs\Python\Python312\Lib\site-packages\telethon\extensions\binaryreader.py", line 140, in tgread_object
+    raise error
+telethon.errors.common.TypeNotFoundError: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID fe685355. See the FAQ for more details. Remaining bytes: b'USh\xfe  \x00\x00\x08\x00\x00\x00\xe8\xfa\x08g\x00\x00\x00\x00"\xd2\xee\xe1x\x12\xfc\xbc\x14THE KING OF GOLD\xf0\x9f\x8f\x86\x00\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\xd4\xc71\x1b\xdeX\xc8P\x11\x01\x08\x08\xac\x8d\x1f\x95\x8c6\xff\x00^\xd4QE\x00\x7f\x00\x00\x04\x00\x00\x00\xb2\x91\xfag\x15\xc4\xb5\x1c\x02\x00\x00\x00"\x14\x0b\x02+@\x02\x02\x10\x10\x00\x00\x00o\x9f\n\x00\x00\x00\x00\xca\x9c\xe5(\xfa=\rl\rSpam Info Bot\x00\x00\x07SpamBot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x00o\x9f\n\x13\x01\x08\x08\xb9\xf2l\xe86m\xf6\xff\x009\xa2\x8a*Nv\xcf\x04\x00\x00\x00\x04\x00\x00\x00\x0ft\xfd\x01"\x14\x0b\x02+@\x00\x02\x10\x00\x00\x00\x18\xac\'\x08\x00\x00\x00\x00\xb4\xa6\xe6\x90@C\xac+\x07Channel\x0bChannel_Bot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x18\xac\'\x08\x10\x01\x08\x08\xb1\xf2\xf9_\xedg4QEp3\xad\x1f\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00>*l\xa5\xa0\x03\x00\x00\x00\x00\x00\x00 \xdfkh\x02\x00\x00\x00H\x00\x00\x00'
+PS C:\Users\XO\Desktop\telegram-trading-assistant\backend> `

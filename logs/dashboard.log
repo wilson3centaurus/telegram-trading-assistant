@@ -210,3 +210,111 @@
 2025-07-07 03:03:45,938 - werkzeug - INFO -  * Debugger PIN: 921-771-904
 2025-07-07 03:06:16,810 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
 2025-07-07 03:06:16,851 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:27:16,854 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 14:27:16,854 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 14:27:16,863 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:27:17,208 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:27:17,208 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:27:23,730 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 14:27:23,730 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 14:27:23,732 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:27:24,058 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:27:24,058 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:27:30,290 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:27:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-07 14:27:30,528 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:27:30] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-07-07 14:27:30,528 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:27:30] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-07-07 14:27:31,308 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:27:31] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=fV0GBqKNoOEuxBEumMAs HTTP/1.1" 200 -
+2025-07-07 14:27:33,761 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:27:33] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-07-07 14:36:28,598 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 14:36:28,598 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 14:36:28,598 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:36:28,908 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:36:28,908 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:36:32,148 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:36:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-07 14:36:32,445 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:36:32] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-07 14:36:32,450 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:36:32] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-07 14:36:33,216 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:36:33] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=GYmoPXQ4psS1EUoEi7xR HTTP/1.1" 200 -
+2025-07-07 14:49:29,516 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 14:49:29,558 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:49:29,861 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:49:29,871 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:49:38,938 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 14:49:38,971 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:49:39,210 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:49:39,213 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:49:40,228 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 14:49:40,257 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:49:40,487 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:49:40,487 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:49:41,506 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 14:49:41,542 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:49:41,757 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:49:41,773 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:49:42,788 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 14:49:42,826 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:49:43,070 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:49:43,074 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:49:50,117 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 14:49:50,193 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:49:50,553 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:49:50,567 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:49:51,607 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 14:49:51,654 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:49:51,982 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:49:51,998 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:49:53,020 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 14:49:53,074 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:49:53,453 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:49:53,461 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:49:55,496 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 14:49:55,555 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:49:55,891 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:49:55,891 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:50:04,774 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:50:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-07-07 14:50:05,079 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:50:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-07-07 14:50:05,079 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:50:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-07-07 14:50:05,113 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:50:05] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=LcP4yN8zHoMMbsjs5kpL HTTP/1.1" 200 -
+2025-07-07 14:50:05,278 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 14:50:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-07-07 14:50:12,064 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 14:50:12,304 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:50:12,846 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:50:12,856 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:50:13,905 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 14:50:13,972 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:50:14,394 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:50:14,402 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 14:50:15,433 - werkzeug - INFO -  * Detected change in 'C:\\Users\\XO\\Desktop\\telegram-trading-assistant\\app.py', reloading
+2025-07-07 14:50:15,492 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 14:50:15,837 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 14:50:15,841 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 22:51:33,011 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 22:51:33,015 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 22:51:33,020 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 22:51:33,334 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 22:51:33,351 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 23:02:11,601 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 23:02:11,601 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 23:02:11,606 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 23:02:11,919 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 23:02:11,926 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 23:02:18,238 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-07 23:02:18,238 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 23:02:18,242 - werkzeug - INFO -  * Restarting with stat
+2025-07-07 23:02:18,535 - werkzeug - WARNING -  * Debugger is active!
+2025-07-07 23:02:18,551 - werkzeug - INFO -  * Debugger PIN: 921-771-904
+2025-07-07 23:02:22,324 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:02:22] "GET / HTTP/1.1" 200 -
+2025-07-07 23:02:22,490 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:02:22] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+2025-07-07 23:02:22,522 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:02:22] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -
+2025-07-07 23:02:25,408 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:02:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-07-07 23:15:58,729 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:15:58] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+2025-07-07 23:15:58,756 - werkzeug - INFO - 127.0.0.1 - - [07/Jul/2025 23:15:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 00:09:51,204 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:09:51] "GET / HTTP/1.1" 200 -
+2025-07-08 00:09:51,266 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:09:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-07-08 00:09:51,279 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:09:51] "[33mGET /static/css/styles.css HTTP/1.1[0m" 404 -
+2025-07-08 00:09:51,288 - werkzeug - INFO - 127.0.0.1 - - [08/Jul/2025 00:09:51] "[33mGET /static/js/app.js HTTP/1.1[0m" 404 -

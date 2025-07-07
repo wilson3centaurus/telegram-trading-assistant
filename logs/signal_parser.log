@@ -17,3 +17,118 @@
 2025-07-07 10:15:13,012 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
 2025-07-07 10:15:13,012 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
 2025-07-07 10:15:13,253 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-07 13:55:29,768 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-07 13:55:29,789 - trading_api - INFO - Successfully connected to MT5
+2025-07-07 13:55:30,972 - notifier - ERROR - Telegram notification failed: {"ok":false,"error_code":403,"description":"Forbidden: bots can't send messages to bots"}
+2025-07-07 13:55:30,972 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-07 13:55:30,972 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 13:55:31,401 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-07 14:19:02,183 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-07 14:19:02,200 - trading_api - INFO - Successfully connected to MT5
+2025-07-07 14:19:03,295 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-07 14:19:03,296 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 14:19:03,512 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-07 14:24:19,888 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-07 14:24:19,888 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-07 14:24:19,891 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-07 14:24:19,893 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-07 14:24:19,894 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 14:24:20,178 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-07 14:24:21,370 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-07 14:24:21,373 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-07 14:25:44,466 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-07 14:25:44,468 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-07 14:26:09,388 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-07 14:26:09,407 - trading_api - INFO - Successfully connected to MT5
+2025-07-07 14:26:10,488 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-07 14:26:10,488 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 14:26:10,768 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-07 14:26:12,939 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-07 14:26:12,939 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-07 14:48:29,946 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-07 14:48:29,946 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-07 14:48:29,946 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-07 14:48:29,948 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-07 14:48:29,948 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 14:48:31,969 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-07 14:48:33,549 - telethon.client.updates - INFO - Got difference for channel 1179664119 updates
+2025-07-07 15:18:35,153 - telethon.client.updates - INFO - Got difference for channel 1880253938 updates
+2025-07-07 15:20:58,883 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 1236] The network connection was aborted by the local system
+2025-07-07 15:20:58,918 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 1236] The network connection was aborted by the local system
+2025-07-07 15:20:58,921 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-07 15:20:58,924 - telethon.network.connection.connection - INFO - <class 'ConnectionAbortedError'> during disconnect: [WinError 1236] The network connection was aborted by the local system
+2025-07-07 15:20:58,927 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 15:20:58,932 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:20:59,943 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:00,953 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:01,970 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:02,984 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:03,991 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:05,003 - telethon.network.mtprotosender - INFO - Failed reconnection attempt 1 with ConnectionError
+2025-07-07 15:21:06,013 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 15:21:06,015 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:07,025 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:08,036 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:09,045 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:10,060 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:11,075 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:12,093 - telethon.network.mtprotosender - INFO - Failed reconnection attempt 2 with ConnectionError
+2025-07-07 15:21:13,098 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 15:21:13,103 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:14,122 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:15,139 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:16,153 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:17,157 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:18,161 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:19,175 - telethon.network.mtprotosender - INFO - Failed reconnection attempt 3 with ConnectionError
+2025-07-07 15:21:20,192 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 15:21:20,195 - telethon.network.mtprotosender - WARNING - Attempt 1 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:21,212 - telethon.network.mtprotosender - WARNING - Attempt 2 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:22,221 - telethon.network.mtprotosender - WARNING - Attempt 3 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:23,233 - telethon.network.mtprotosender - WARNING - Attempt 4 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:24,242 - telethon.network.mtprotosender - WARNING - Attempt 5 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:25,259 - telethon.network.mtprotosender - WARNING - Attempt 6 at connecting failed: OSError: [WinError 1231] The network location cannot be reached. For information about network troubleshooting, see Windows Help
+2025-07-07 15:21:26,269 - telethon.network.mtprotosender - INFO - Failed reconnection attempt 4 with ConnectionError
+2025-07-07 15:21:27,280 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 15:21:27,580 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-07 15:21:27,874 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-07 15:21:27,879 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 15:21:28,168 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-07 15:37:15,912 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-07 15:37:15,913 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-07 15:37:15,913 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-07 15:37:15,913 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-07 15:37:15,914 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-07 15:37:16,130 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-07 15:37:16,399 - telethon.client.updates - INFO - Got difference for account updates
+2025-07-07 15:37:16,950 - telethon.client.updates - INFO - Got difference for channel 1880253938 updates
+2025-07-07 15:39:16,211 - telegram_monitor - INFO - New message received: Sl 19381
+2025-07-07 15:39:16,213 - signal_parser - WARNING - No signal pattern found in message: Sl 19381
+2025-07-07 15:46:11,676 - telegram_monitor - INFO - New message received: 
+2025-07-07 15:46:11,677 - signal_parser - WARNING - No signal pattern found in message: 
+2025-07-07 15:52:16,924 - telethon.client.updates - INFO - Got difference for channel 1259295717 updates
+2025-07-07 16:07:17,535 - telethon.client.updates - INFO - Got difference for channel 1880253938 updates
+2025-07-07 16:22:17,535 - telethon.client.updates - INFO - Got difference for channel 1880253938 updates
+2025-07-07 16:40:33,096 - telegram_monitor - INFO - New message received: 
+2025-07-07 16:40:33,096 - signal_parser - WARNING - No signal pattern found in message: 
+2025-07-07 16:40:59,174 - telethon.client.updates - INFO - Got difference for channel 1880253938 updates
+2025-07-07 16:52:17,777 - telethon.client.updates - WARNING - Cannot get difference since the account is likely misusing the session: Could not find a matching Constructor ID for the TLObject that was supposed to be read with ID fe685355. See the FAQ for more details. Remaining bytes: b'USh\xfe  \x00\x00\x08\x00\x00\x00\xe8\xfa\x08g\x00\x00\x00\x00"\xd2\xee\xe1x\x12\xfc\xbc\x14THE KING OF GOLD\xf0\x9f\x8f\x86\x00\x00\x00\x11\x1cn\x1c\x02\x00\x00\x00\xd4\xc71\x1b\xdeX\xc8P\x11\x01\x08\x08\xac\x8d\x1f\x95\x8c6\xff\x00^\xd4QE\x00\x7f\x00\x00\x04\x00\x00\x00\xb2\x91\xfag\x15\xc4\xb5\x1c\x02\x00\x00\x00"\x14\x0b\x02+@\x02\x02\x10\x10\x00\x00\x00o\x9f\n\x00\x00\x00\x00\xca\x9c\xe5(\xfa=\rl\rSpam Info Bot\x00\x00\x07SpamBot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x00o\x9f\n\x13\x01\x08\x08\xb9\xf2l\xe86m\xf6\xff\x009\xa2\x8a*Nv\xcf\x04\x00\x00\x00\x04\x00\x00\x00\x0ft\xfd\x01"\x14\x0b\x02+@\x00\x02\x10\x00\x00\x00\x18\xac\'\x08\x00\x00\x00\x00\xb4\xa6\xe6\x90@C\xac+\x07Channel\x0bChannel_Bot\x06\xf7\xd1\x82\x02\x00\x00\x00\xa9\xa71\x1b\x18\xac\'\x08\x10\x01\x08\x08\xb1\xf2\xf9_\xedg4QEp3\xad\x1f\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00>*l\xa5\xa0\x03\x00\x00\x00\x00\x00\x00 \xdfkh\x02\x00\x00\x00H\x00\x00\x00'
+2025-07-07 16:52:17,783 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-07 16:52:17,786 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-07 16:52:17,803 - telethon.network.mtprotosender - INFO - Not disconnecting (already have no connection)
+2025-07-08 00:08:24,271 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-08 00:08:24,292 - trading_api - INFO - Successfully connected to MT5
+2025-07-08 00:08:27,119 - notifier - ERROR - Telegram notification failed: {"ok":false,"error_code":401,"description":"Unauthorized"}
+2025-07-08 00:08:27,120 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-08 00:08:27,122 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-07-08 00:08:29,284 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-07-08 00:08:30,620 - telethon.client.users - INFO - Phone migrated to 4
+2025-07-08 00:08:30,896 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 4
+2025-07-08 00:08:31,230 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-07-08 00:08:31,232 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-07-08 00:08:31,234 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-08 00:08:33,575 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-08 00:09:02,854 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-08 00:09:02,858 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-08 00:10:10,499 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-08 00:10:10,500 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!

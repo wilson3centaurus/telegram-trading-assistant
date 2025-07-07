@@ -1,0 +1,9 @@
+2025-07-07 13:57:52,750 - notifier - ERROR - Telegram notification failed: {"ok":false,"error_code":403,"description":"Forbidden: bots can't send messages to bots"}
+2025-07-07 13:57:52,752 - notifier - INFO - Notification sent: Test notification
+2025-07-07 13:58:45,078 - notifier - ERROR - Telegram notification failed: {"ok":false,"error_code":403,"description":"Forbidden: bots can't send messages to bots"}
+2025-07-07 13:58:45,078 - notifier - INFO - Notification sent: Test notification
+2025-07-07 14:01:43,915 - notifier - ERROR - Telegram notification failed: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-07-07 14:01:43,916 - notifier - INFO - Notification sent: Test notification
+2025-07-07 14:17:45,828 - notifier - ERROR - Telegram notification failed: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-07-07 14:17:45,828 - notifier - INFO - Notification sent: Test notification
+2025-07-07 14:18:37,548 - notifier - INFO - Notification sent: Test notification

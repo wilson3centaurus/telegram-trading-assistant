@@ -1,0 +1,20 @@
+telegram-trading-assistant/
+├── backend/
+│   ├── telegram_monitor.py
+│   ├── signal_parser.py
+│   ├── trading_api.py
+│   ├── notifier.py
+│   ├── main.py
+│   ├── config.py
+│   └── requirements.txt
+├── frontend/
+│   ├── static/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   ├── templates/
+│   │   └── index.html
+│   └── app.py
+├── logs/
+│   └── trading.log
+└── README.md
