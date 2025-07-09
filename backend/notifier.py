@@ -28,14 +28,15 @@ class Notifier:
         try:
             # Desktop notification
             notification.notify(
-                title='Trading Assistant',
+                title='Tau Core',
                 message=message,
                 app_name='Telegram Trading Assistant'
             )
             
             # Telegram notification
+            '''
             if NOTIFICATION_TELEGRAM_BOT_TOKEN and NOTIFICATION_CHAT_ID:
-                url = f"https://api.telegram.org/bot{NOTIFICATION_TELEGRAM_BOT_TOKEN}/sendMessage"
+                url = f"https://api.telegram.org/bot{NOTIFICATION_TELEGRAM_BOT_TOKEN}/XOsendMessage"
                 payload = {
                     'chat_id': NOTIFICATION_CHAT_ID,
                     'text': message
@@ -43,11 +44,11 @@ class Notifier:
                 response = requests.post(url, data=payload)
                 if response.status_code != 200:
                     logger.error(f"Telegram notification failed: {response.text}")
-            
+            '''''
             # Email notification
             if EMAIL_NOTIFICATIONS:
                 msg = MIMEText(message)
-                msg['Subject'] = 'Trading Assistant Notification'
+                msg['Subject'] = 'Tau Core - Trading Assistant Notification'
                 msg['From'] = EMAIL_FROM
                 msg['To'] = EMAIL_TO
                 

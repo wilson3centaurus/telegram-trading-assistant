@@ -132,3 +132,1678 @@
 2025-07-08 00:09:02,858 - telegram_monitor - INFO - Monitoring Telegram channels...
 2025-07-08 00:10:10,499 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
 2025-07-08 00:10:10,500 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-08 11:53:28,918 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-08 12:01:43,360 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-08 12:02:26,348 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-08 12:03:44,878 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-08 12:03:44,896 - trading_api - INFO - Connected to MT5
+2025-07-08 12:03:47,713 - notifier - ERROR - Telegram notification failed: {"ok":false,"error_code":401,"description":"Unauthorized"}
+2025-07-08 12:03:47,713 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-08 12:03:47,720 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-07-08 12:03:50,672 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-07-08 12:03:51,900 - telethon.client.users - INFO - Phone migrated to 4
+2025-07-08 12:03:52,174 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 4
+2025-07-08 12:03:52,414 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-07-08 12:03:52,414 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-07-08 12:03:52,414 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-08 12:03:54,784 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-08 12:04:42,281 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-08 12:04:42,281 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-08 12:05:56,585 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-08 12:05:56,585 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-08 14:07:33,813 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-08 14:07:36,577 - trading_api - INFO - Connected to MT5
+2025-07-08 14:07:40,933 - notifier - ERROR - Telegram notification failed: {"ok":false,"error_code":400,"description":"Bad Request: chat not found"}
+2025-07-08 14:07:40,939 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-08 14:07:40,941 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-07-08 14:07:43,503 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-07-08 14:07:45,263 - telethon.client.users - INFO - Phone migrated to 4
+2025-07-08 14:07:45,504 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 4
+2025-07-08 14:07:45,725 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-07-08 14:07:45,725 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-07-08 14:07:45,731 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-08 19:24:00,297 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-08 19:24:03,612 - trading_api - INFO - Successfully connected to MT5
+2025-07-08 19:24:03,682 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-08 19:24:03,682 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-07-08 19:24:06,111 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-07-08 19:24:07,617 - telethon.client.users - INFO - Phone migrated to 4
+2025-07-08 19:24:07,830 - telethon.client.telegrambaseclient - INFO - Reconnecting to new data center 4
+2025-07-08 19:24:08,066 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-07-08 19:24:08,066 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-07-08 19:24:08,066 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-08 19:24:10,342 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-08 19:25:33,348 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-08 19:25:33,348 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-08 19:26:03,464 - telegram_monitor - INFO - New message received: Hello
+2025-07-08 19:26:03,465 - signal_parser - WARNING - No signal pattern found in message: Hello
+2025-07-08 19:26:32,873 - telegram_monitor - INFO - New message received: Buy Gold  3283 - 3280
+
+SL: 3277
+
+TP: 3285
+TP: 3287
+TP: 3289
+TP: open
+2025-07-08 19:26:32,873 - signal_parser - WARNING - No signal pattern found in message: Buy Gold  3283 - 3280
+
+SL: 3277
+
+TP: 3285
+TP: 3287
+TP: 3289
+TP: open
+2025-07-08 19:27:34,487 - telegram_monitor - INFO - New message received: Gold Buy Now: 3333 - 3330
+
+SL: 3328
+
+TP1: 3335
+TP2: 3338
+2025-07-08 19:27:34,488 - signal_parser - INFO - Successfully parsed signal: {'symbol': 'GOLD', 'action': 'BUY', 'entry_min': 3333.0, 'entry_max': 3330.0, 'sl': 3328.0, 'tp1': 3335.0, 'tp2': 3338.0}
+2025-07-08 19:27:34,488 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'GOLD', 'action': 'BUY', 'entry_min': 3333.0, 'entry_max': 3330.0, 'sl': 3328.0, 'tp1': 3335.0, 'tp2': 3338.0}
+2025-07-08 19:27:34,502 - trading_api - INFO - Successfully connected to MT5
+2025-07-08 19:27:34,503 - trading_api - ERROR - Error executing trade: 'NoneType' object has no attribute 'retcode'
+2025-07-08 19:27:34,504 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'GOLD', 'action': 'BUY', 'entry_min': 3333.0, 'entry_max': 3330.0, 'sl': 3328.0, 'tp1': 3335.0, 'tp2': 3338.0}
+2025-07-08 19:29:22,625 - telegram_monitor - INFO - New message received: Gold Sell Now: 3311 - 3314
+
+SL: 3316
+
+TP1: 3309
+TP2: 3307
+2025-07-08 19:29:22,626 - signal_parser - INFO - Successfully parsed signal: {'symbol': 'GOLD', 'action': 'SELL', 'entry_min': 3311.0, 'entry_max': 3314.0, 'sl': 3316.0, 'tp1': 3309.0, 'tp2': 3307.0}
+2025-07-08 19:29:22,627 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'GOLD', 'action': 'SELL', 'entry_min': 3311.0, 'entry_max': 3314.0, 'sl': 3316.0, 'tp1': 3309.0, 'tp2': 3307.0}
+2025-07-08 19:29:22,642 - trading_api - INFO - Successfully connected to MT5
+2025-07-08 19:29:22,643 - trading_api - ERROR - Error executing trade: 'NoneType' object has no attribute 'retcode'
+2025-07-08 19:29:22,644 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'GOLD', 'action': 'SELL', 'entry_min': 3311.0, 'entry_max': 3314.0, 'sl': 3316.0, 'tp1': 3309.0, 'tp2': 3307.0}
+2025-07-08 19:35:51,741 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-08 19:35:51,741 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 00:29:31,647 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 00:29:35,433 - trading_api - INFO - Connected to MT5
+2025-07-09 00:29:35,550 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 00:29:35,553 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 00:29:35,753 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 00:29:37,177 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 00:29:37,180 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-09 00:30:14,260 - telegram_monitor - INFO - New message received: Gold Buy Now: 3356 - 3353
+
+SL: 3351
+
+TP1: 3358
+TP2: 3361
+2025-07-09 00:30:14,266 - signal_parser - INFO - Parsed signal: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3353.0, 'entry_max': 3356.0, 'sl': 3351.0, 'tp1': 8.0, 'tp2': 1.0}
+2025-07-09 00:30:14,267 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3353.0, 'entry_max': 3356.0, 'sl': 3351.0, 'tp1': 8.0, 'tp2': 1.0}
+2025-07-09 00:30:14,298 - trading_api - INFO - Connected to MT5
+2025-07-09 00:30:14,304 - trading_api - ERROR - Order failed: AutoTrading disabled by client
+2025-07-09 00:30:14,308 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3353.0, 'entry_max': 3356.0, 'sl': 3351.0, 'tp1': 8.0, 'tp2': 1.0}
+2025-07-09 00:34:16,551 - telegram_monitor - INFO - New message received: Buy Gold Now: 3302 - 3304
+SL: 3300
+TP1: 3305
+TP2: 3308
+2025-07-09 00:34:16,551 - signal_parser - INFO - Parsed signal: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': 8.0}
+2025-07-09 00:34:16,551 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': 8.0}
+2025-07-09 00:34:16,583 - trading_api - INFO - Connected to MT5
+2025-07-09 00:34:16,584 - trading_api - ERROR - Order failed: AutoTrading disabled by client
+2025-07-09 00:34:16,584 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': 8.0}
+2025-07-09 00:35:08,176 - telegram_monitor - INFO - New message received: Sell Gold: 3302 - 3304
+SL: 3300
+TP1: 3305
+2025-07-09 00:35:08,178 - signal_parser - INFO - Parsed signal: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': None}
+2025-07-09 00:35:08,178 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': None}
+2025-07-09 00:35:08,198 - trading_api - INFO - Connected to MT5
+2025-07-09 00:35:08,198 - trading_api - ERROR - Order failed: AutoTrading disabled by client
+2025-07-09 00:35:08,201 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': None}
+2025-07-09 00:38:00,297 - telegram_monitor - INFO - New message received: Sell Gold: 3302 - 3304
+SL: 3300
+TP1: 3305
+2025-07-09 00:38:00,300 - signal_parser - INFO - Parsed signal: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': None}
+2025-07-09 00:38:00,301 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': None}
+2025-07-09 00:38:00,327 - trading_api - INFO - Connected to MT5
+2025-07-09 00:38:00,330 - trading_api - ERROR - Order failed: Unsupported filling mode
+2025-07-09 00:38:00,333 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': None}
+2025-07-09 00:40:21,852 - telegram_monitor - INFO - New message received: Sell Gold: 3302 - 3304
+SL: 3300
+TP1: 3305
+2025-07-09 00:40:21,853 - signal_parser - INFO - Parsed signal: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': None}
+2025-07-09 00:40:21,854 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': None}
+2025-07-09 00:40:21,879 - trading_api - INFO - Connected to MT5
+2025-07-09 00:40:21,881 - trading_api - ERROR - Order failed: Unsupported filling mode
+2025-07-09 00:40:21,883 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': None}
+2025-07-09 00:41:26,857 - telegram_monitor - INFO - New message received: Sell Gold: 3302 - 3304
+SL: 3300
+TP1: 3305
+2025-07-09 00:41:26,857 - signal_parser - INFO - Parsed signal: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': None}
+2025-07-09 00:41:26,857 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': None}
+2025-07-09 00:41:26,883 - trading_api - INFO - Connected to MT5
+2025-07-09 00:41:26,883 - trading_api - ERROR - Order failed: Unsupported filling mode
+2025-07-09 00:41:26,888 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3302.0, 'entry_max': 3304.0, 'sl': 3300.0, 'tp1': 5.0, 'tp2': None}
+2025-07-09 00:41:48,507 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 00:41:48,509 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 00:41:54,645 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 00:41:54,660 - trading_api - INFO - Connected to MT5
+2025-07-09 00:41:54,669 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 00:41:54,669 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 00:41:54,882 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 00:41:56,533 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 00:41:56,533 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-09 00:42:03,410 - telegram_monitor - INFO - New message received: Sell Gold: 3302 - 3304
+SL: 3300
+TP1: 3305
+2025-07-09 00:42:03,414 - signal_parser - ERROR - Parse error: could not convert string to float: 'SL'
+2025-07-09 00:45:56,252 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 00:45:56,257 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 00:45:59,968 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 00:45:59,983 - trading_api - INFO - Connected to MT5
+2025-07-09 00:46:00,000 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 00:46:00,000 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 00:46:00,238 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 00:46:01,885 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 00:46:01,885 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-09 00:46:16,027 - telethon.client.updates - INFO - Got difference for channel 2310471028 updates
+2025-07-09 00:46:16,028 - telegram_monitor - INFO - New message received: Sell Gold: 3302 - 3304
+SL: 3300
+TP1: 3305
+2025-07-09 00:46:16,029 - signal_parser - WARNING - Action not found in message: SELL GOLD: 3302 - 3304
+SL: 3300
+TP1: 3305
+2025-07-09 00:46:16,031 - telegram_monitor - INFO - New message received: Sell Gold: 3302 - 3304
+SL: 3300
+TP1: 3305
+2025-07-09 00:46:16,032 - signal_parser - WARNING - Action not found in message: SELL GOLD: 3302 - 3304
+SL: 3300
+TP1: 3305
+2025-07-09 00:47:05,800 - telegram_monitor - INFO - New message received: **Gold buy now 3378 - 3375
+**
+Sl: 3372
+
+TP1: 3381
+TP2: 3388
+2025-07-09 00:47:05,802 - signal_parser - WARNING - Action not found in message: **GOLD BUY NOW 3378 - 3375
+**
+SL: 3372
+
+TP1: 3381
+TP2: 3388
+2025-07-09 00:47:32,406 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 00:47:32,409 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 00:47:41,334 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 00:47:41,346 - trading_api - INFO - Connected to MT5
+2025-07-09 00:47:41,358 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 00:47:41,363 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 00:47:41,623 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 00:47:42,956 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 00:47:42,956 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-09 00:47:49,995 - telegram_monitor - INFO - New message received: **Gold buy now 3378 - 3375
+**
+Sl: 3372
+
+TP1: 3381
+TP2: 3388
+2025-07-09 00:47:49,996 - signal_parser - ERROR - Parse error: could not convert string to float: 'SL'
+2025-07-09 00:50:22,369 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 00:50:22,369 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 00:50:25,959 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 00:50:25,977 - trading_api - INFO - Connected to MT5
+2025-07-09 00:50:25,986 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 00:50:25,986 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 00:50:26,196 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 00:50:27,636 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 00:50:27,636 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-09 00:50:44,332 - telethon.client.updates - INFO - Got difference for channel 2310471028 updates
+2025-07-09 00:50:44,334 - telegram_monitor - INFO - New message received: **Gold buy now 3378 - 3375
+**
+Sl: 3372
+
+TP1: 3381
+TP2: 3388
+2025-07-09 00:50:44,337 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3375.0, 'entry_max': 3378.0, 'sl': 3372.0, 'tp1': 3381.0, 'tp2': 3388.0}
+2025-07-09 00:50:44,369 - trading_api - INFO - Connected to MT5
+2025-07-09 00:50:44,372 - trading_api - ERROR - All filling modes failed. Last error: (1, 'Success')
+2025-07-09 00:50:44,376 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3375.0, 'entry_max': 3378.0, 'sl': 3372.0, 'tp1': 3381.0, 'tp2': 3388.0}
+2025-07-09 00:50:44,378 - telegram_monitor - INFO - New message received: Gold buy now 3378 - 3375
+
+Sl: 3372
+
+TP1: 3381
+TP2: 3388
+2025-07-09 00:50:44,380 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3375.0, 'entry_max': 3378.0, 'sl': 3372.0, 'tp1': 3381.0, 'tp2': 3388.0}
+2025-07-09 00:50:44,415 - trading_api - INFO - Connected to MT5
+2025-07-09 00:50:44,418 - trading_api - ERROR - All filling modes failed. Last error: (1, 'Success')
+2025-07-09 00:50:44,422 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3375.0, 'entry_max': 3378.0, 'sl': 3372.0, 'tp1': 3381.0, 'tp2': 3388.0}
+2025-07-09 00:56:06,981 - telegram_monitor - INFO - New message received: Gold buy now 3378 - 3375
+
+Sl: 3372
+
+TP1: 3381
+TP2: 3388
+2025-07-09 00:56:06,983 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3375.0, 'entry_max': 3378.0, 'sl': 3372.0, 'tp1': 3381.0, 'tp2': 3388.0}
+2025-07-09 00:56:07,012 - trading_api - INFO - Connected to MT5
+2025-07-09 00:56:07,016 - trading_api - ERROR - All filling modes failed. Last error: (1, 'Success')
+2025-07-09 00:56:07,018 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3375.0, 'entry_max': 3378.0, 'sl': 3372.0, 'tp1': 3381.0, 'tp2': 3388.0}
+2025-07-09 00:56:17,984 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 00:56:17,988 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 00:56:47,729 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 00:56:47,735 - trading_api - INFO - Connected to MT5
+2025-07-09 00:56:47,750 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 00:56:47,750 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 00:56:48,025 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 00:56:49,775 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 00:56:49,775 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-09 00:57:00,775 - telegram_monitor - INFO - New message received: **Gold buy now 3378 - 3375
+**
+Sl: 3372
+
+TP1: 3381
+TP2: 3388
+2025-07-09 00:57:00,777 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3375.0, 'entry_max': 3378.0, 'sl': 3372.0, 'tp1': 3381.0, 'tp2': 3388.0}
+2025-07-09 00:57:00,794 - trading_api - INFO - Connected to MT5
+2025-07-09 00:57:00,798 - trading_api - ERROR - All filling modes failed. Last error: (1, 'Success')
+2025-07-09 00:57:00,800 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3375.0, 'entry_max': 3378.0, 'sl': 3372.0, 'tp1': 3381.0, 'tp2': 3388.0}
+2025-07-09 01:01:47,857 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 01:01:47,857 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 01:01:51,985 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 01:01:51,988 - trading_api - INFO - Connected to MT5
+2025-07-09 01:01:52,005 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 01:01:52,005 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 01:01:52,209 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 01:01:53,781 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 01:01:53,781 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-09 01:02:06,596 - telegram_monitor - INFO - New message received: Gold buy now 3378 - 3375
+
+Sl: 3372
+
+TP1: 3381
+TP2: 3388
+2025-07-09 01:02:06,599 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3375.0, 'entry_max': 3378.0, 'sl': 3372.0, 'tp1': 3381.0, 'tp2': 3388.0}
+2025-07-09 01:02:06,625 - trading_api - INFO - Connected to MT5
+2025-07-09 01:02:06,627 - trading_api - ERROR - All filling modes failed. Last error: (1, 'Success')
+2025-07-09 01:02:06,630 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3375.0, 'entry_max': 3378.0, 'sl': 3372.0, 'tp1': 3381.0, 'tp2': 3388.0}
+2025-07-09 01:16:53,826 - telethon.client.updates - INFO - Got difference for account updates
+2025-07-09 07:46:08,721 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 07:46:08,737 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 07:46:08,737 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 07:46:08,737 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 07:46:08,737 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 07:46:08,962 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 07:46:09,169 - telethon.network.mtprotostate - WARNING - Server resent the older message 7524954365256852481, ignoring
+2025-07-09 10:14:06,505 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 10:14:06,505 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 10:14:13,569 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 10:14:13,569 - trading_api - INFO - Connected to MT5
+2025-07-09 10:14:13,622 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 10:14:13,622 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 10:14:14,020 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 10:14:17,605 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 10:14:17,611 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-09 10:42:33,283 - telegram_monitor - INFO - New message received: Gold Buy Now: 3289 - 3286
+
+SL: 3284
+
+TP1: 3291
+TP2: 3293
+2025-07-09 10:42:33,286 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3286.0, 'entry_max': 3289.0, 'sl': 3284.0, 'tp1': 3291.0, 'tp2': 3293.0}
+2025-07-09 10:42:33,300 - trading_api - INFO - Connected to MT5
+2025-07-09 10:42:33,574 - trading_api - ERROR - All filling modes failed. Last error: (1, 'Success')
+2025-07-09 10:42:33,576 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3286.0, 'entry_max': 3289.0, 'sl': 3284.0, 'tp1': 3291.0, 'tp2': 3293.0}
+2025-07-09 10:43:14,752 - telegram_monitor - INFO - New message received: -1001979633557,     # Adam Trader
+2025-07-09 10:43:43,936 - telegram_monitor - INFO - New message received: Gold Buy Now: 3289 - 3286
+
+SL: 3284
+
+TP1: 3291
+TP2: 3293
+2025-07-09 10:43:43,937 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3286.0, 'entry_max': 3289.0, 'sl': 3284.0, 'tp1': 3291.0, 'tp2': 3293.0}
+2025-07-09 10:43:43,952 - trading_api - INFO - Connected to MT5
+2025-07-09 10:43:44,174 - trading_api - ERROR - All filling modes failed. Last error: (1, 'Success')
+2025-07-09 10:43:44,175 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3286.0, 'entry_max': 3289.0, 'sl': 3284.0, 'tp1': 3291.0, 'tp2': 3293.0}
+2025-07-09 10:44:17,721 - telethon.client.updates - INFO - Got difference for account updates
+2025-07-09 11:57:48,948 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 11:57:48,948 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 11:57:48,948 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 11:57:48,948 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 11:57:48,948 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 11:57:49,181 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 11:57:49,499 - telethon.network.mtprotostate - WARNING - Server resent the older message 7525019217781210113, ignoring
+2025-07-09 11:57:50,041 - telethon.client.updates - INFO - Got difference for channel 1920020352 updates
+2025-07-09 11:57:50,529 - telethon.client.updates - INFO - Got difference for channel 1979633557 updates
+2025-07-09 11:58:48,934 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 11:58:48,935 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 11:58:48,935 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 11:58:48,935 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 11:58:48,935 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 11:58:49,152 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 11:59:48,924 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 11:59:48,924 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 11:59:48,924 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 11:59:48,924 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 11:59:48,924 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 11:59:49,130 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:04:49,041 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:04:49,041 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:04:49,041 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:04:49,041 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:04:49,041 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:04:49,253 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:05:49,154 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:05:49,154 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:05:49,155 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:05:49,155 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:05:49,155 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:05:49,366 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:06:49,156 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:06:49,156 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:06:49,156 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:06:49,156 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:06:49,156 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:06:49,353 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:15:49,224 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:15:49,224 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:15:49,224 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:15:49,225 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:15:49,225 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:15:49,440 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:17:48,276 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 12:17:48,276 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:17:51,784 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 12:17:51,796 - trading_api - INFO - Connected to MT5
+2025-07-09 12:17:51,803 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 12:17:51,804 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:17:52,083 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:17:53,688 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 12:17:53,689 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-09 12:20:53,636 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:20:53,636 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:20:53,636 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:20:53,636 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:20:53,636 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:20:53,871 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:21:53,675 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:21:53,675 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:21:53,675 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:21:53,675 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:21:53,675 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:21:53,976 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:23:53,878 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:23:53,878 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:23:53,878 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:23:53,878 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:23:53,878 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:23:54,214 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:24:53,646 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:24:53,646 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:24:53,646 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:24:53,646 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:24:53,646 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:24:53,895 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:26:20,845 - telegram_monitor - INFO - New message received: Buy Gold 3285- 3282
+
+SL: 3279
+
+TP: 3287
+TP: 3289
+TP: 3291
+TP: 3293
+2025-07-09 12:26:20,847 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3282.0, 'entry_max': 3285.0, 'sl': 3279.0, 'tp1': 3287.0, 'tp2': 3289.0}
+2025-07-09 12:26:20,874 - trading_api - INFO - Connected to MT5
+2025-07-09 12:26:20,875 - trading_api - ERROR - All filling modes failed. Last error: (1, 'Success')
+2025-07-09 12:26:20,877 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3282.0, 'entry_max': 3285.0, 'sl': 3279.0, 'tp1': 3287.0, 'tp2': 3289.0}
+2025-07-09 12:27:46,016 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 12:27:46,017 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:27:50,768 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 12:27:50,780 - trading_api - INFO - Connected to MT5
+2025-07-09 12:27:50,784 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 12:27:50,784 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:27:51,051 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:27:52,552 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 12:27:52,553 - telegram_monitor - INFO - Monitoring Telegram channels: [-1001979633557, -1002310471028, -1001454616797, -1001313672961]
+2025-07-09 12:27:52,553 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-09 12:28:52,595 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:28:52,595 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:28:52,595 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:28:52,597 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:28:52,597 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:28:52,890 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:29:12,566 - telegram_monitor - INFO - New message received: Buy Gold 3285- 3282
+
+SL: 3279
+
+TP: 3287
+TP: 3289
+TP: 3291
+TP: 3293
+2025-07-09 12:29:12,567 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3282.0, 'entry_max': 3285.0, 'sl': 3279.0, 'tp1': 3287.0, 'tp2': 3289.0}
+2025-07-09 12:29:12,582 - trading_api - INFO - Connected to MT5
+2025-07-09 12:29:12,584 - trading_api - ERROR - All filling modes failed. Last error: (1, 'Success')
+2025-07-09 12:29:12,585 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3282.0, 'entry_max': 3285.0, 'sl': 3279.0, 'tp1': 3287.0, 'tp2': 3289.0}
+2025-07-09 12:29:31,447 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 12:29:31,447 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:29:34,929 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 12:29:34,942 - trading_api - INFO - Connected to MT5
+2025-07-09 12:29:34,949 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 12:29:34,949 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:29:35,188 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:29:36,873 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 12:29:36,877 - telegram_monitor - INFO - Monitoring Telegram channels: [-1001979633557, -1002310471028, -1001454616797, -1001313672961]
+2025-07-09 12:29:36,878 - telegram_monitor - INFO - Monitoring Telegram channels...
+2025-07-09 12:29:39,144 - telegram_monitor - INFO - Signal parsed successfully: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3282.0, 'entry_max': 3285.0, 'sl': 3279.0, 'tp1': 3287.0, 'tp2': 3289.0}
+2025-07-09 12:29:39,155 - trading_api - INFO - Connected to MT5
+2025-07-09 12:29:39,156 - trading_api - ERROR - All filling modes failed. Last error: (1, 'Success')
+2025-07-09 12:29:39,157 - notifier - INFO - Notification sent: Trade Failed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3282.0, 'entry_max': 3285.0, 'sl': 3279.0, 'tp1': 3287.0, 'tp2': 3289.0}
+2025-07-09 12:30:36,939 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:30:36,939 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:30:36,939 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:30:36,939 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:30:36,939 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:30:37,248 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:31:36,951 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:31:36,952 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:31:36,952 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:31:36,953 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:31:36,954 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:31:37,187 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:32:36,954 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:32:36,954 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:32:36,954 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:32:36,954 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:32:36,954 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:32:37,230 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:32:44,592 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 12:32:44,593 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:35:09,814 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 12:35:09,830 - trading_api - INFO - Connected to MT5
+2025-07-09 12:35:09,845 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 12:35:09,846 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:35:10,146 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:35:12,004 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 12:35:12,004 - telegram_monitor - INFO - === Monitored Channels ===
+2025-07-09 12:35:12,004 - telegram_monitor - INFO -  • Adam Trader (ID: -1001979633557)
+2025-07-09 12:35:12,013 - telegram_monitor - INFO -  • Tau Core (ID: -1002310471028)
+2025-07-09 12:35:12,015 - telegram_monitor - INFO -  • Bluebull Trader (ID: -1001454616797)
+2025-07-09 12:35:12,015 - telegram_monitor - INFO -  • Golder Snipers (ID: -1001313672961)
+2025-07-09 12:35:12,017 - telegram_monitor - INFO - ==========================
+2025-07-09 12:35:12,017 - telegram_monitor - INFO - Active monitoring started...
+2025-07-09 12:35:40,982 - telegram_monitor - INFO - New message from [Adam Trader]: 
+2025-07-09 12:36:22,141 - telegram_monitor - INFO - New message from [Tau Core]: Buy Gold 3285- 3282
+
+SL: 3279
+
+TP: 3287
+TP: 3289
+TP: 3291
+TP: 3293
+2025-07-09 12:36:22,142 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3282.0, 'entry_max': 3285.0, 'sl': 3279.0, 'tp1': 3287.0, 'tp2': 3289.0}
+2025-07-09 12:36:22,157 - trading_api - INFO - Connected to MT5
+2025-07-09 12:36:22,158 - trading_api - ERROR - All filling modes failed. Last error: (1, 'Success')
+2025-07-09 12:38:11,968 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:38:11,968 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:38:11,969 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:38:11,969 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:38:11,971 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:38:12,220 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:39:11,998 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:39:11,998 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:39:11,998 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:39:11,998 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:39:11,998 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:39:12,229 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:40:11,997 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:40:11,998 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:40:11,999 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:40:12,000 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:40:12,001 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:40:12,228 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:41:12,004 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:41:12,005 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:41:12,005 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:41:12,005 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:41:12,005 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:41:12,237 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:43:21,726 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 12:43:21,726 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:43:25,884 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 12:43:25,900 - trading_api - INFO - Connected to MT5
+2025-07-09 12:43:25,906 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 12:43:25,906 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:43:26,272 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:43:28,639 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 12:43:28,639 - telegram_monitor - INFO - === Monitored Channels ===
+2025-07-09 12:43:28,643 - telegram_monitor - INFO -  • Adam Trader (ID: -1001979633557)
+2025-07-09 12:43:28,643 - telegram_monitor - INFO -  • Tau Core (ID: -1002310471028)
+2025-07-09 12:43:28,643 - telegram_monitor - INFO -  • Bluebull Trader (ID: -1001454616797)
+2025-07-09 12:43:28,643 - telegram_monitor - INFO -  • Golder Snipers (ID: -1001313672961)
+2025-07-09 12:43:28,643 - telegram_monitor - INFO - ==========================
+2025-07-09 12:43:28,643 - telegram_monitor - INFO - Active monitoring started...
+2025-07-09 12:43:45,973 - telegram_monitor - INFO - New message from [Tau Core]: **Gold buy now 3378 - 3375
+**
+Sl: 3372
+
+TP: 3381
+2025-07-09 12:43:45,975 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3375.0, 'entry_max': 3378.0, 'sl': 3372.0, 'tp1': 3381.0, 'tp2': None}
+2025-07-09 12:43:45,988 - trading_api - INFO - Connected to MT5
+2025-07-09 12:43:45,989 - trading_api - ERROR - All filling modes failed. Last error: (1, 'Success')
+2025-07-09 12:45:28,529 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:45:28,529 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:45:28,529 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:45:28,529 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:45:28,529 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:45:28,780 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:46:28,605 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:46:28,606 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:46:28,607 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:46:28,608 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:46:28,608 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:46:28,864 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:47:28,670 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:47:28,670 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:47:28,671 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:47:28,671 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:47:28,672 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:47:28,887 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:48:28,631 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:48:28,633 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:48:28,633 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:48:28,634 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:48:28,635 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:48:28,881 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:49:20,869 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 12:49:20,870 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:49:24,748 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 12:49:24,768 - trading_api - INFO - Connected to MT5
+2025-07-09 12:49:24,772 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 12:49:24,772 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:49:25,094 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:49:26,731 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 12:49:26,743 - telegram_monitor - INFO - === Monitored Channels ===
+2025-07-09 12:49:26,743 - telegram_monitor - INFO -  • Adam Trader (ID: -1001979633557)
+2025-07-09 12:49:26,743 - telegram_monitor - INFO -  • Tau Core (ID: -1002310471028)
+2025-07-09 12:49:26,743 - telegram_monitor - INFO -  • Bluebull Trader (ID: -1001454616797)
+2025-07-09 12:49:26,743 - telegram_monitor - INFO -  • Golder Snipers (ID: -1001313672961)
+2025-07-09 12:49:26,743 - telegram_monitor - INFO - ==========================
+2025-07-09 12:49:26,743 - telegram_monitor - INFO - Active monitoring started...
+2025-07-09 12:49:40,974 - telegram_monitor - INFO - New message from [Tau Core]: Buy Gold 3285- 3282
+
+SL: 3279
+
+TP: 3287
+TP: 3289
+TP: 3291
+TP: 329
+2025-07-09 12:49:40,977 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3282.0, 'entry_max': 3285.0, 'sl': 3279.0, 'tp1': 3287.0, 'tp2': 3289.0}
+2025-07-09 12:49:40,997 - trading_api - INFO - Connected to MT5
+2025-07-09 12:49:40,998 - trading_api - WARNING - Filling mode 1 failed: Unsupported filling mode
+2025-07-09 12:49:40,999 - trading_api - WARNING - Filling mode 0 failed: Invalid stops
+2025-07-09 12:49:41,000 - trading_api - WARNING - Filling mode 2 failed: Unsupported filling mode
+2025-07-09 12:49:41,002 - notifier - INFO - Notification sent: Trade executed from Tau Core
+Symbol: XAUUSD BUY
+Entry: 3282.0-3285.0
+SL: 3279.0 | TP: 3287.0
+2025-07-09 12:51:28,183 - telegram_monitor - INFO - New message from [Tau Core]: **Gold buy now 3378 - 3375
+**
+Sl: 3372
+
+TP: 3381
+2025-07-09 12:51:28,185 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3375.0, 'entry_max': 3378.0, 'sl': 3372.0, 'tp1': 3381.0, 'tp2': None}
+2025-07-09 12:51:28,206 - trading_api - INFO - Connected to MT5
+2025-07-09 12:51:28,207 - trading_api - WARNING - Filling mode 1 failed: Unsupported filling mode
+2025-07-09 12:51:28,209 - trading_api - WARNING - Filling mode 0 failed: Invalid stops
+2025-07-09 12:51:28,210 - trading_api - WARNING - Filling mode 2 failed: Unsupported filling mode
+2025-07-09 12:51:28,213 - notifier - INFO - Notification sent: Trade executed from Tau Core
+Symbol: XAUUSD BUY
+Entry: 3375.0-3378.0
+SL: 3372.0 | TP: 3381.0
+2025-07-09 12:52:26,700 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:52:26,701 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:52:26,702 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:52:26,703 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:52:26,704 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:52:26,922 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:53:26,726 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:53:26,727 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:53:26,728 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:53:26,728 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:53:26,729 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:53:26,926 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:54:26,721 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:54:26,736 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:54:26,738 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:54:26,738 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:54:26,739 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:54:26,978 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:56:26,788 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:56:26,788 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:56:26,788 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:56:26,788 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:56:26,788 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:56:27,092 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 12:57:26,872 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 12:57:26,872 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 12:57:26,880 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 12:57:26,880 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 12:57:26,880 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 12:57:27,171 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:02:55,437 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 13:02:55,437 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:03:09,979 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 13:03:09,995 - trading_api - INFO - Connected to MT5
+2025-07-09 13:03:10,011 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 13:03:10,011 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 13:03:10,240 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:03:11,999 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 13:03:12,001 - telegram_monitor - INFO - === Monitored Channels ===
+2025-07-09 13:03:12,001 - telegram_monitor - INFO -  • Adam Trader (ID: -1001979633557)
+2025-07-09 13:03:12,001 - telegram_monitor - INFO -  • Tau Core (ID: -1002310471028)
+2025-07-09 13:03:12,001 - telegram_monitor - INFO -  • Bluebull Trader (ID: -1001454616797)
+2025-07-09 13:03:12,001 - telegram_monitor - INFO -  • Golder Snipers (ID: -1001313672961)
+2025-07-09 13:03:12,001 - telegram_monitor - INFO - ==========================
+2025-07-09 13:03:12,001 - telegram_monitor - INFO - Active monitoring started...
+2025-07-09 13:03:24,188 - telegram_monitor - INFO - New message from [Tau Core]: Buy Gold 3285- 3282
+
+SL: 3279
+
+TP: 3287
+TP: 3289
+TP: 3291
+TP: 329
+2025-07-09 13:03:24,190 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3282.0, 'entry_max': 3285.0, 'sl': 3279.0, 'tp1': 3287.0, 'tp2': 3289.0}
+2025-07-09 13:03:24,214 - trading_api - INFO - Connected to MT5
+2025-07-09 13:03:24,215 - trading_api - ERROR - Trade execution error: cannot access local variable 'symbol' where it is not associated with a value
+2025-07-09 13:03:24,216 - notifier - INFO - Notification sent: Trade FAILED from Tau Core - Reason: System error: cannot access local variable 'symbol' where it is not associated with a value
+2025-07-09 13:06:02,876 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 13:06:02,948 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 13:06:02,948 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 13:06:02,948 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 13:06:02,948 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 13:06:03,169 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:14:02,930 - telegram_monitor - INFO - New message from [Adam Trader]: 
+2025-07-09 13:16:03,009 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 13:16:03,010 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 13:16:03,011 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 13:16:03,011 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 13:16:03,012 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 13:16:03,249 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:18:02,977 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 13:18:02,978 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 13:18:02,979 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 13:18:02,980 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 13:18:02,980 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 13:18:03,186 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:20:18,835 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 13:20:18,838 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:23:34,247 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 13:23:34,261 - trading_api - ERROR - MT5 initialization failed: (-6, 'Terminal: Authorization failed')
+2025-07-09 13:23:34,272 - notifier - INFO - Notification sent: Failed to connect to MT5. Exiting...
+2025-07-09 13:30:26,514 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 13:30:30,768 - trading_api - ERROR - MT5 initialization failed: (-6, 'Terminal: Authorization failed')
+2025-07-09 13:30:30,772 - notifier - INFO - Notification sent: Failed to connect to MT5. Exiting...
+2025-07-09 13:38:00,312 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 13:38:00,335 - trading_api - INFO - Connected to MT5
+2025-07-09 13:38:00,345 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 13:38:00,345 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 13:38:00,635 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:38:02,265 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 13:38:02,265 - telegram_monitor - INFO - === Monitored Channels ===
+2025-07-09 13:38:02,265 - telegram_monitor - INFO -  • Adam Trader (ID: -1001979633557)
+2025-07-09 13:38:02,265 - telegram_monitor - INFO -  • Tau Core (ID: -1002310471028)
+2025-07-09 13:38:02,265 - telegram_monitor - INFO -  • Bluebull Trader (ID: -1001454616797)
+2025-07-09 13:38:02,265 - telegram_monitor - INFO -  • Golder Snipers (ID: -1001313672961)
+2025-07-09 13:38:02,265 - telegram_monitor - INFO - ==========================
+2025-07-09 13:38:02,272 - telegram_monitor - INFO - Active monitoring started...
+2025-07-09 13:38:17,932 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 13:38:17,932 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:47:22,212 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 13:47:22,233 - trading_api - INFO - Connected to MT5
+2025-07-09 13:47:22,242 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 13:47:22,242 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 13:47:22,503 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:47:24,056 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 13:47:24,057 - telegram_monitor - INFO - === Monitored Channels ===
+2025-07-09 13:47:24,057 - telegram_monitor - INFO -  • Adam Trader (ID: -1001979633557)
+2025-07-09 13:47:24,057 - telegram_monitor - INFO -  • Tau Core (ID: -1002310471028)
+2025-07-09 13:47:24,058 - telegram_monitor - INFO -  • Bluebull Trader (ID: -1001454616797)
+2025-07-09 13:47:24,058 - telegram_monitor - INFO -  • Golder Snipers (ID: -1001313672961)
+2025-07-09 13:47:24,058 - telegram_monitor - INFO - ==========================
+2025-07-09 13:47:24,059 - telegram_monitor - INFO - Active monitoring started...
+2025-07-09 13:47:38,878 - telethon.client.updates - INFO - Got difference for channel 2310471028 updates
+2025-07-09 13:47:38,879 - telegram_monitor - INFO - New message from [Tau Core]: Buy Gold 3285- 3282
+
+SL: 3279
+
+TP: 3287
+TP: 3289
+TP: 3291
+TP: 329
+2025-07-09 13:47:38,882 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3282.0, 'entry_max': 3285.0, 'sl': 3279.0, 'tp1': 3287.0, 'tp2': 3289.0}
+2025-07-09 13:47:38,901 - trading_api - INFO - Connected to MT5
+2025-07-09 13:47:38,902 - trading_api - ERROR - Trade execution error: cannot access local variable 'symbol' where it is not associated with a value
+2025-07-09 13:47:38,903 - notifier - INFO - Notification sent: Trade FAILED from Tau Core - Reason: System error: cannot access local variable 'symbol' where it is not associated with a value
+2025-07-09 13:47:38,904 - telegram_monitor - INFO - New message from [Tau Core]: SELL XAUUSD
+Entry: 3285.0800000000004-3285.48
+
+SL: 3286.19
+
+TP1: 3283.83
+TP2: 3282.33
+TP3: 3280.83
+TP4: 3279.33
+2025-07-09 13:47:38,906 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3285.0800000000004, 'entry_max': 3285.48, 'sl': 3286.19, 'tp1': 3283.83, 'tp2': 3282.33}
+2025-07-09 13:47:38,927 - trading_api - INFO - Connected to MT5
+2025-07-09 13:47:38,928 - trading_api - ERROR - Trade execution error: cannot access local variable 'symbol' where it is not associated with a value
+2025-07-09 13:47:38,929 - notifier - INFO - Notification sent: Trade FAILED from Tau Core - Reason: System error: cannot access local variable 'symbol' where it is not associated with a value
+2025-07-09 13:47:56,986 - telegram_monitor - INFO - New message from [Tau Core]: SELL Gold
+Entry: 3285.0800000000004-3285.48
+
+SL: 3286.19
+
+TP1: 3283.83
+TP2: 3282.33
+TP3: 3280.83
+TP4: 3279.33
+2025-07-09 13:47:56,987 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3285.0800000000004, 'entry_max': 3285.48, 'sl': 3286.19, 'tp1': 3283.83, 'tp2': 3282.33}
+2025-07-09 13:47:57,005 - trading_api - INFO - Connected to MT5
+2025-07-09 13:47:57,006 - trading_api - ERROR - Trade execution error: cannot access local variable 'symbol' where it is not associated with a value
+2025-07-09 13:47:57,008 - notifier - INFO - Notification sent: Trade FAILED from Tau Core - Reason: System error: cannot access local variable 'symbol' where it is not associated with a value
+2025-07-09 13:50:48,598 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 13:50:48,600 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:51:54,682 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 13:51:54,694 - trading_api - INFO - Connected to MT5
+2025-07-09 13:51:54,701 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 13:51:54,702 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 13:51:54,904 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:51:56,444 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 13:51:56,444 - telegram_monitor - INFO - === Monitored Channels ===
+2025-07-09 13:51:56,444 - telegram_monitor - INFO -  • Adam Trader (ID: -1001979633557)
+2025-07-09 13:51:56,444 - telegram_monitor - INFO -  • Tau Core (ID: -1002310471028)
+2025-07-09 13:51:56,444 - telegram_monitor - INFO -  • Bluebull Trader (ID: -1001454616797)
+2025-07-09 13:51:56,444 - telegram_monitor - INFO -  • Golder Snipers (ID: -1001313672961)
+2025-07-09 13:51:56,444 - telegram_monitor - INFO - ==========================
+2025-07-09 13:51:56,444 - telegram_monitor - INFO - Active monitoring started...
+2025-07-09 13:52:00,598 - telegram_monitor - INFO - New message from [Tau Core]: BUY XAUUSD
+Entry: 3285.77-3286.1699999999996
+
+SL: 3284.59
+
+TP1: 3287.22
+2025-07-09 13:52:00,598 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3285.77, 'entry_max': 3286.1699999999996, 'sl': 3284.59, 'tp1': 3287.22, 'tp2': None}
+2025-07-09 13:52:00,616 - trading_api - INFO - Connected to MT5
+2025-07-09 13:52:00,616 - trading_api - ERROR - Trade execution error for unknown symbol: 'TradingAPI' object has no attribute '_normalize_symbol'
+Traceback (most recent call last):
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\trading_api.py", line 53, in execute_trade
+    symbol = self._normalize_symbol(signal['symbol'])
+             ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TradingAPI' object has no attribute '_normalize_symbol'
+2025-07-09 13:52:00,625 - notifier - INFO - Notification sent: Trade FAILED from Tau Core - Reason: Trade execution error for unknown symbol: 'TradingAPI' object has no attribute '_normalize_symbol'
+2025-07-09 13:54:48,619 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 13:54:48,619 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:54:52,885 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 13:54:52,901 - trading_api - INFO - Connected to MT5
+2025-07-09 13:54:52,919 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 13:54:52,919 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 13:54:53,180 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 13:54:54,824 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 13:54:54,824 - telegram_monitor - INFO - === Monitored Channels ===
+2025-07-09 13:54:54,824 - telegram_monitor - INFO -  • Adam Trader (ID: -1001979633557)
+2025-07-09 13:54:54,829 - telegram_monitor - INFO -  • Tau Core (ID: -1002310471028)
+2025-07-09 13:54:54,829 - telegram_monitor - INFO -  • Bluebull Trader (ID: -1001454616797)
+2025-07-09 13:54:54,829 - telegram_monitor - INFO -  • Golder Snipers (ID: -1001313672961)
+2025-07-09 13:54:54,829 - telegram_monitor - INFO - ==========================
+2025-07-09 13:54:54,829 - telegram_monitor - INFO - Active monitoring started...
+2025-07-09 13:55:07,622 - telegram_monitor - INFO - New message from [Tau Core]: BUY XAUUSD
+Entry: 3285.77-3286.1699999999996
+
+SL: 3284.59
+
+TP1: 3287.22
+2025-07-09 13:55:07,625 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3285.77, 'entry_max': 3286.1699999999996, 'sl': 3284.59, 'tp1': 3287.22, 'tp2': None}
+2025-07-09 13:55:07,655 - trading_api - INFO - Connected to MT5
+2025-07-09 13:55:08,901 - notifier - INFO - Notification sent: Trade executed from Tau Core ...
+2025-07-09 14:09:54,944 - telethon.client.updates - INFO - Got difference for account updates
+2025-07-09 14:17:55,009 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 14:17:55,009 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 14:17:55,009 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 14:17:55,009 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 14:17:55,009 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 14:17:55,208 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 14:22:23,212 - telegram_monitor - INFO - New message from [Tau Core]: BUY XAUUSD 3288.61-3289.61
+
+SL: 3288.33
+
+TP: 3289.97
+TP: 3291.47
+TP: 3292.97
+2025-07-09 14:22:23,212 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3288.61, 'entry_max': 3289.61, 'sl': 3288.33, 'tp1': 3289.97, 'tp2': 3291.47}
+2025-07-09 14:22:23,218 - trading_api - INFO - Connected to MT5
+2025-07-09 14:22:24,501 - notifier - INFO - Notification sent: Trade executed from Tau Core ...
+2025-07-09 14:23:20,157 - telegram_monitor - INFO - New message from [Tau Core]: BUY Signal for XAUUSD
+Entry Zone: 3288.02-3289.4199999999996
+Stop Loss: 3287.48
+Take Profit 1: 3289.64
+2025-07-09 14:23:20,157 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3288.02, 'entry_max': 3289.4199999999996, 'sl': 3287.48, 'tp1': 1.0, 'tp2': None}
+2025-07-09 14:23:20,173 - trading_api - INFO - Connected to MT5
+2025-07-09 14:23:20,189 - trading_api - WARNING - Trade failed: Invalid stops
+2025-07-09 14:23:20,189 - notifier - INFO - Notification sent: Trade FAILED from Tau Core - Reason: Invalid stops
+2025-07-09 14:24:55,366 - telethon.client.updates - INFO - Got difference for account updates
+2025-07-09 14:24:56,717 - telegram_monitor - INFO - New message from [Tau Core]: SELL Signal for XAUUSD
+Entry Zone: 3289.69-3291.0899999999997
+Stop Loss: 3291.84
+Take Profit 1: 3289.39
+Take Profit 2: 3287.89
+Take Profit 3: 3286.39
+2025-07-09 14:24:56,717 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3289.69, 'entry_max': 3291.0899999999997, 'sl': 3291.84, 'tp1': 1.0, 'tp2': 2.0}
+2025-07-09 14:24:56,744 - trading_api - INFO - Connected to MT5
+2025-07-09 14:24:56,744 - trading_api - ERROR - SL too close! Needs at least 0.1 distance
+2025-07-09 14:24:56,746 - notifier - INFO - Notification sent: Trade FAILED from Tau Core - Reason: Invalid stop levels
+2025-07-09 14:25:13,621 - telegram_monitor - INFO - New message from [Tau Core]: BUY XAUUSD 3290.02-3291.02
+
+SL: 3289.02
+
+TP: 3291.78
+2025-07-09 14:25:13,621 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3290.02, 'entry_max': 3291.02, 'sl': 3289.02, 'tp1': 3291.78, 'tp2': None}
+2025-07-09 14:25:13,639 - trading_api - INFO - Connected to MT5
+2025-07-09 14:25:14,989 - notifier - INFO - Notification sent: Trade executed from Tau Core ...
+2025-07-09 14:26:55,166 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 14:26:55,166 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 14:26:55,166 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 14:26:55,166 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 14:26:55,182 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 14:26:55,421 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 14:27:31,483 - telegram_monitor - INFO - New message from [Tau Core]: SELL XAUUSD 3289.72-3290.72
+
+SL: 3291.47
+
+TP: 3289.14
+TP: 3287.64
+TP: 3286.14
+TP: 3284.64
+2025-07-09 14:27:31,483 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3289.72, 'entry_max': 3290.72, 'sl': 3291.47, 'tp1': 3289.14, 'tp2': 3287.64}
+2025-07-09 14:27:31,505 - trading_api - INFO - Connected to MT5
+2025-07-09 14:27:31,505 - trading_api - ERROR - SL too close! Needs at least 0.1 distance
+2025-07-09 14:27:31,513 - notifier - INFO - Notification sent: Trade FAILED from Tau Core - Reason: Invalid stop levels
+2025-07-09 14:29:26,326 - telegram_monitor - INFO - New message from [Tau Core]: Buy Gold  3283 - 3280
+
+SL: 3277
+
+TP: 3285
+TP: 3287
+TP: 3289
+TP: open
+2025-07-09 14:29:26,327 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3280.0, 'entry_max': 3283.0, 'sl': 3277.0, 'tp1': 3285.0, 'tp2': 3287.0}
+2025-07-09 14:29:26,353 - trading_api - INFO - Connected to MT5
+2025-07-09 14:29:26,355 - trading_api - WARNING - Trade failed: Invalid stops
+2025-07-09 14:29:26,357 - notifier - INFO - Notification sent: Trade FAILED from Tau Core - Reason: Invalid stops
+2025-07-09 14:29:47,253 - telegram_monitor - INFO - New message from [Tau Core]: BUY XAUUSD 3290.52-3291.52
+
+SL: 3289.83
+
+TP: 3291.94
+TP: 3293.44
+TP: 3294.94
+2025-07-09 14:29:47,253 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3290.52, 'entry_max': 3291.52, 'sl': 3289.83, 'tp1': 3291.94, 'tp2': 3293.44}
+2025-07-09 14:29:47,271 - trading_api - INFO - Connected to MT5
+2025-07-09 14:29:48,524 - notifier - INFO - Notification sent: Trade executed from Tau Core ...
+2025-07-09 14:33:24,731 - telegram_monitor - INFO - New message from [Tau Core]: BUY XAUUSD 3290.52-3291.52
+
+SL: 3289.83
+
+TP: 3291.94
+TP: 3293.44
+TP: 3294.94
+2025-07-09 14:33:24,734 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3290.52, 'entry_max': 3291.52, 'sl': 3289.83, 'tp1': 3291.94, 'tp2': 3293.44}
+2025-07-09 14:33:24,763 - trading_api - INFO - Connected to MT5
+2025-07-09 14:33:24,767 - trading_api - WARNING - Trade failed: Invalid stops
+2025-07-09 14:33:24,770 - notifier - INFO - Notification sent: Trade FAILED from Tau Core - Reason: Invalid stops
+2025-07-09 15:18:09,627 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:18:09,627 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:18:09,627 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:18:09,627 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:18:09,627 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:18:09,942 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:18:10,331 - telethon.client.updates - INFO - Got difference for account updates
+2025-07-09 15:31:09,730 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:31:09,730 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:31:09,730 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:31:09,730 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:31:09,730 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:31:09,955 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:34:09,791 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:34:09,791 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:34:09,791 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:34:09,791 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:34:09,791 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:34:10,064 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:37:09,833 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:37:09,833 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:37:09,833 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:37:09,833 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:37:09,837 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:37:10,040 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:38:09,836 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:38:09,836 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:38:09,836 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:38:09,836 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:38:09,836 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:38:10,030 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:39:09,841 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:39:09,842 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:39:09,843 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:39:09,844 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:39:09,845 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:39:10,057 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:41:09,897 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:41:09,897 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:41:09,897 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:41:09,905 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:41:09,905 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:41:10,199 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:42:10,540 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:42:10,542 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:42:10,544 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:42:10,544 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:42:10,544 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:42:10,814 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:43:22,532 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:43:22,532 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:43:22,532 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:43:22,532 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:43:22,532 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:43:22,758 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:45:10,055 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:45:10,055 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:45:10,055 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:45:10,055 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:45:10,055 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:45:10,326 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:46:09,987 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:46:09,987 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:46:09,987 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:46:09,987 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:46:09,987 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:46:10,207 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:47:10,062 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:47:10,062 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:47:10,072 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:47:10,072 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:47:10,072 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:47:10,378 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:48:09,985 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:48:09,985 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:48:09,985 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:48:09,989 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:48:09,990 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:48:10,274 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:48:10,906 - telethon.client.updates - INFO - Got difference for account updates
+2025-07-09 15:48:10,908 - telegram_monitor - INFO - New message from [Adam Trader]: 
+2025-07-09 15:48:11,691 - telethon.client.updates - INFO - Got difference for channel 1920020352 updates
+2025-07-09 15:49:10,019 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:49:10,021 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:49:10,021 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:49:10,021 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:49:10,024 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:49:10,243 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:50:10,043 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:50:10,043 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:50:10,045 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:50:10,048 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:50:10,048 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:50:10,250 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:51:10,048 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:51:10,048 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:51:10,048 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:51:10,059 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:51:10,059 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:51:10,263 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:52:10,057 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:52:10,057 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:52:10,057 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:52:10,071 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:52:10,072 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:52:10,282 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:53:10,216 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:53:10,217 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:53:10,218 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:53:10,218 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:53:10,220 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:53:10,424 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:54:10,133 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:54:10,135 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:54:10,135 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:54:10,135 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:54:10,138 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:54:10,332 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:55:10,126 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:55:10,126 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:55:10,126 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:55:10,141 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:55:10,142 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:55:10,434 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:56:10,156 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:56:10,156 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:56:10,156 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:56:10,156 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:56:10,156 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:56:10,446 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:57:10,169 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:57:10,171 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:57:10,171 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:57:10,172 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:57:10,174 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:57:10,377 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 15:58:10,206 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 15:58:10,207 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 15:58:10,207 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 15:58:10,207 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 15:58:10,207 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 15:58:10,451 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 16:04:10,266 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 16:04:10,266 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 16:04:10,266 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 16:04:10,266 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 16:04:10,266 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 16:04:10,499 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 16:05:10,296 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 16:05:10,304 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 16:05:10,305 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 16:05:10,305 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 16:05:10,305 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 16:05:10,504 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 16:06:10,309 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 16:06:10,309 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 16:06:10,309 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 16:06:10,309 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 16:06:10,309 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 16:06:10,536 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 16:07:10,301 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 16:07:10,301 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 16:07:10,301 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 16:07:10,301 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 16:07:10,301 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 16:07:10,512 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 16:11:10,379 - telegram_monitor - INFO - New message from [Adam Trader]: 
+2025-07-09 16:13:44,625 - telegram_monitor - INFO - New message from [Tau Core]: SELL XAUUSD
+Entry: 3304.75-3305.1499999999996
+
+SL: 3305.82
+
+TP1: 3303.59
+TP2: 3302.09
+2025-07-09 16:13:44,625 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'SELL', 'entry_min': 3304.75, 'entry_max': 3305.1499999999996, 'sl': 3305.82, 'tp1': 3303.59, 'tp2': 3302.09}
+2025-07-09 16:13:44,656 - trading_api - INFO - Connected to MT5
+2025-07-09 16:13:44,656 - trading_api - ERROR - SL too close! Needs at least 0.1 distance
+2025-07-09 16:13:44,656 - notifier - INFO - Notification sent: Trade FAILED from Tau Core - Reason: Invalid stop levels
+2025-07-09 16:22:01,904 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 16:22:01,904 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!
+2025-07-09 16:22:15,846 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-09 16:22:15,895 - trading_api - INFO - Connected to MT5
+2025-07-09 16:22:16,037 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-09 16:22:16,037 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 16:22:16,267 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 16:22:17,701 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-09 16:22:17,702 - telegram_monitor - INFO - === Monitored Channels ===
+2025-07-09 16:22:17,703 - telegram_monitor - INFO -  • Adam Trader (ID: -1001979633557)
+2025-07-09 16:22:17,704 - telegram_monitor - INFO -  • Tau Core (ID: -1002310471028)
+2025-07-09 16:22:17,705 - telegram_monitor - INFO -  • Bluebull Trader (ID: -1001454616797)
+2025-07-09 16:22:17,705 - telegram_monitor - INFO -  • Golder Snipers (ID: -1001313672961)
+2025-07-09 16:22:17,706 - telegram_monitor - INFO - ==========================
+2025-07-09 16:22:17,707 - telegram_monitor - INFO - Active monitoring started...
+2025-07-09 16:22:51,701 - telegram_monitor - INFO - New message from [Tau Core]: BUY XAUUSD 3306.95-3307.95
+
+SL: 3306.53
+
+TP: 3308.44
+TP: 3309.94
+2025-07-09 16:22:51,704 - telegram_monitor - INFO - [Tau Core] Signal parsed: {'symbol': 'XAUUSD', 'action': 'BUY', 'entry_min': 3306.95, 'entry_max': 3307.95, 'sl': 3306.53, 'tp1': 3308.44, 'tp2': 3309.94}
+2025-07-09 16:22:51,728 - trading_api - INFO - Connected to MT5
+2025-07-09 16:22:52,938 - notifier - INFO - Notification sent: Trade executed from Tau Core ...
+2025-07-09 16:33:45,564 - telethon.client.updates - INFO - Got difference for account updates
+2025-07-09 17:09:18,570 - telegram_monitor - INFO - New message from [Golder Snipers]: Order filled
+2025-07-09 17:11:18,694 - telegram_monitor - INFO - New message from [Adam Trader]: 
+2025-07-09 17:33:46,594 - telethon.client.updates - INFO - Got difference for account updates
+2025-07-09 18:18:19,703 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:18:19,705 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:18:19,705 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:18:19,705 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:18:19,705 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:18:19,983 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:20:19,693 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:20:19,693 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:20:19,695 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:20:19,695 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:20:19,695 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:20:19,899 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:21:19,785 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:21:19,785 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:21:19,785 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:21:19,785 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:21:19,788 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:21:20,045 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:22:19,760 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:22:19,760 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:22:19,760 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:22:19,760 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:22:19,760 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:22:20,001 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:24:19,809 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:24:19,809 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:24:19,814 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:24:19,814 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:24:19,814 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:24:20,020 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:25:19,785 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:25:19,785 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:25:19,785 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:25:19,785 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:25:19,785 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:25:19,992 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:26:19,935 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:26:19,935 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:26:19,939 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:26:19,939 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:26:19,939 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:26:20,192 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:27:19,834 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:27:19,834 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:27:19,834 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:27:19,839 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:27:19,839 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:27:20,054 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:28:19,880 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:28:19,880 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:28:19,880 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:28:19,884 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:28:19,884 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:28:20,134 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:29:19,945 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:29:19,945 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:29:19,945 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:29:19,954 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:29:19,954 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:29:20,255 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:30:19,890 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:30:19,895 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:30:19,895 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:30:19,895 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:30:19,895 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:30:20,171 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:31:19,874 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:31:19,874 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:31:19,874 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:31:19,874 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:31:19,874 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:31:20,164 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:32:19,889 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:32:19,889 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:32:19,889 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:32:19,894 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:32:19,894 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:32:20,099 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:33:19,910 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:33:19,913 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:33:19,913 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:33:19,914 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:33:19,914 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:33:20,145 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:33:20,594 - telethon.client.updates - INFO - Got difference for channel 1313672961 updates
+2025-07-09 18:35:19,995 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:35:19,995 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:35:19,995 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:35:19,995 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:35:19,995 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:35:20,214 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:36:19,994 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:36:19,994 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:36:19,994 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:36:19,994 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:36:19,996 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:36:20,309 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:37:19,985 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:37:19,985 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:37:19,985 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:37:19,985 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:37:19,995 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:37:20,214 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:37:54,018 - telegram_monitor - INFO - New message from [Adam Trader]: Thanks Adam
+2025-07-09 18:39:20,004 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:39:20,004 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:39:20,004 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:39:20,004 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:39:20,004 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:39:20,204 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:40:20,134 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:40:20,134 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:40:20,134 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:40:20,134 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:40:20,134 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:40:20,439 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:41:20,094 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:41:20,104 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:41:20,104 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:41:20,104 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:41:20,104 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:41:20,376 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:42:20,144 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:42:20,149 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:42:20,149 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:42:20,149 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:42:20,149 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:42:20,434 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:44:20,078 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:44:20,078 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:44:20,078 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:44:20,078 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:44:20,078 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:44:20,282 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:44:21,104 - telethon.client.updates - INFO - Got difference for channel 1979633557 updates
+2025-07-09 18:44:21,104 - telegram_monitor - INFO - New message from [Adam Trader]: 
+2025-07-09 18:46:20,157 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:46:20,158 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:46:20,158 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:46:20,160 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:46:20,161 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:46:20,375 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:47:20,180 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:47:20,180 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:47:20,180 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:47:20,184 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:47:20,184 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:47:20,397 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:50:20,184 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:50:20,184 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:50:20,184 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:50:20,184 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:50:20,184 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:50:20,392 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:51:20,192 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:51:20,192 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:51:20,192 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:51:20,192 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:51:20,192 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:51:20,392 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:52:20,202 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:52:20,202 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:52:20,202 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:52:20,202 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:52:20,202 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:52:20,406 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:54:20,222 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 18:54:20,222 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 18:54:20,222 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 18:54:20,222 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 18:54:20,222 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 18:54:20,422 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 18:56:21,069 - telethon.client.updates - INFO - Got difference for channel 1313672961 updates
+2025-07-09 18:56:21,077 - telegram_monitor - INFO - New message from [Golder Snipers]: Exness, Vantage, OctaFX or XM Broker users
+
+Contact us for free VIP Access [@GoldSnipersAdmin](https://t.me/goldsnipersadmin)
+
+Only 10 Slots Open
+2025-07-09 18:56:21,077 - telegram_monitor - INFO - New message from [Golder Snipers]: 3 left only
+2025-07-09 19:00:20,274 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:00:20,282 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:00:20,282 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:00:20,282 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:00:20,282 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:00:20,482 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:02:20,473 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:02:20,473 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:02:20,473 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:02:20,473 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:02:20,473 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:02:20,782 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:03:20,381 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:03:20,381 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:03:20,381 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:03:20,386 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:03:20,386 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:03:20,612 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:05:20,402 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:05:20,407 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:05:20,407 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:05:20,408 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:05:20,408 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:05:20,622 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:06:20,402 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:06:20,402 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:06:20,402 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:06:20,402 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:06:20,402 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:06:20,612 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:07:20,412 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:07:20,412 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:07:20,421 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:07:20,421 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:07:20,421 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:07:20,632 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:09:20,432 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:09:20,432 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:09:20,432 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:09:20,432 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:09:20,432 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:09:20,656 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:10:20,432 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:10:20,433 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:10:20,434 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:10:20,434 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:10:20,436 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:10:20,647 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:11:20,445 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:11:20,445 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:11:20,445 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:11:20,445 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:11:20,445 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:11:20,661 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:12:20,464 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:12:20,464 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:12:20,464 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:12:20,464 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:12:20,464 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:12:20,754 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:13:20,454 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:13:20,455 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:13:20,455 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:13:20,455 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:13:20,455 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:13:20,664 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:14:20,510 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:14:20,514 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:14:20,514 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:14:20,514 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:14:20,514 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:14:20,764 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:16:20,584 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:16:20,585 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:16:20,585 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:16:20,585 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:16:20,585 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:16:20,800 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:33:49,080 - telethon.client.updates - INFO - Got difference for account updates
+2025-07-09 19:37:20,940 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:37:20,940 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:37:20,940 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:37:20,940 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:37:20,940 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:37:21,160 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:39:20,970 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:39:20,973 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:39:20,973 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:39:20,973 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:39:20,980 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:39:21,281 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:40:20,960 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:40:20,960 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:40:20,962 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:40:20,962 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:40:20,962 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:40:21,181 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:41:20,970 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:41:20,970 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:41:20,970 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:41:20,980 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:41:20,980 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:41:21,190 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:45:21,104 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:45:21,105 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:45:21,105 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:45:21,105 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:45:21,105 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:45:21,320 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:46:21,110 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:46:21,110 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:46:21,110 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:46:21,110 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:46:21,114 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:46:21,414 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:47:21,113 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:47:21,113 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:47:21,120 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:47:21,120 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:47:21,120 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:47:21,326 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:48:21,120 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:48:21,120 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:48:21,120 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:48:21,120 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:48:21,130 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:48:21,330 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:50:21,231 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:50:21,231 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:50:21,231 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:50:21,239 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:50:21,240 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:50:21,440 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:52:21,250 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:52:21,250 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:52:21,250 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:52:21,250 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:52:21,250 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:52:21,460 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:57:21,300 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:57:21,300 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:57:21,300 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:57:21,300 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:57:21,300 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:57:21,516 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:58:21,301 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:58:21,301 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:58:21,301 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:58:21,301 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:58:21,301 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:58:21,600 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:59:21,607 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 19:59:21,610 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 19:59:21,610 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 19:59:21,610 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 19:59:21,610 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 19:59:21,910 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 19:59:22,656 - telethon.client.updates - INFO - Got difference for channel 1979633557 updates
+2025-07-09 20:00:21,411 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:00:21,411 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:00:21,413 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:00:21,413 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:00:21,415 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:00:21,630 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:01:21,440 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:01:21,441 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:01:21,441 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:01:21,443 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:01:21,445 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:01:21,720 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:02:21,449 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:02:21,451 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:02:21,452 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:02:21,453 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:02:21,453 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:02:21,735 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:05:21,440 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:05:21,440 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:05:21,449 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:05:21,449 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:05:21,449 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:05:21,660 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:06:21,456 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:06:21,457 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:06:21,457 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:06:21,457 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:06:21,460 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:06:21,670 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:07:21,469 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:07:21,469 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:07:21,469 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:07:21,469 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:07:21,469 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:07:21,684 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:09:21,577 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:09:21,580 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:09:21,580 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:09:21,580 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:09:21,580 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:09:21,794 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:10:21,584 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:10:21,588 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:10:21,589 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:10:21,589 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:10:21,589 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:10:21,812 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:11:21,588 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:11:21,588 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:11:21,588 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:11:21,588 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:11:21,598 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:11:21,809 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:12:21,619 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:12:21,619 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:12:21,624 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:12:21,624 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:12:21,624 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:12:21,828 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:13:21,609 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:13:21,609 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:13:21,609 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:13:21,609 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:13:21,609 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:13:21,821 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:14:21,629 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:14:21,629 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:14:21,634 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:14:21,634 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:14:21,634 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:14:21,920 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:15:21,718 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:15:21,718 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:15:21,718 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:15:21,728 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:15:21,730 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:15:22,032 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:16:21,728 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:16:21,728 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:16:21,728 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:16:21,728 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:16:21,728 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:16:21,938 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:18:21,748 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:18:21,751 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:18:21,751 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:18:21,752 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:18:21,752 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:18:21,964 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:20:21,770 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:20:21,770 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:20:21,770 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:20:21,770 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:20:21,770 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:20:21,988 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:21:21,771 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:21:21,771 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:21:21,778 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:21:21,778 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:21:21,778 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:21:21,998 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:22:21,784 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:22:21,788 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:22:21,789 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:22:21,789 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:22:21,789 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:22:21,996 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:24:21,895 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:24:21,899 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:24:21,899 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:24:21,899 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:24:21,899 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:24:22,100 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:25:21,900 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:25:21,900 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:25:21,900 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:25:21,900 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:25:21,900 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:25:22,113 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:26:21,908 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:26:21,908 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:26:21,908 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:26:21,908 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:26:21,912 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:26:22,108 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:27:21,928 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:27:21,928 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:27:21,938 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:27:21,938 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:27:21,940 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:27:22,138 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:29:21,930 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:29:21,935 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:29:21,935 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:29:21,935 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:29:21,938 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:29:22,143 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:30:21,929 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:30:21,938 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:30:21,938 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:30:21,938 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:30:21,942 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:30:22,148 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:31:21,948 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:31:21,948 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:31:21,948 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:31:21,954 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:31:21,954 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:31:22,174 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:32:21,964 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:32:21,964 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:32:21,968 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:32:21,968 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:32:21,968 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:32:22,181 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:33:22,058 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:33:22,058 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:33:22,067 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:33:22,068 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:33:22,069 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:33:23,188 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:35:22,078 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:35:22,078 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:35:22,078 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:35:22,078 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:35:22,078 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:35:22,298 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:36:22,086 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:36:22,086 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:36:22,088 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:36:22,088 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:36:22,088 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:36:22,298 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:37:22,088 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:37:22,088 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:37:22,088 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:37:22,093 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:37:22,093 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:37:22,293 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:40:22,210 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:40:22,210 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:40:22,210 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:40:22,218 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:40:22,218 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:40:22,428 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:41:22,225 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:41:22,225 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:41:22,228 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:41:22,229 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:41:22,229 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:41:22,438 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:44:22,267 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:44:22,268 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:44:22,268 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:44:22,268 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:44:22,268 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:44:22,458 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:45:22,358 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 20:45:22,358 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 20:45:22,358 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 20:45:22,358 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 20:45:22,363 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 20:45:22,568 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 20:48:50,546 - telethon.client.updates - INFO - Got difference for account updates
+2025-07-09 22:55:40,829 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-09 22:55:40,829 - telethon.network.mtprotosender - INFO - Connection closed while receiving data: [WinError 64] The specified network name is no longer available
+2025-07-09 22:55:40,829 - telethon.network.mtprotosender - INFO - Closing current connection to begin reconnect...
+2025-07-09 22:55:40,838 - telethon.network.connection.connection - INFO - <class 'ConnectionResetError'> during disconnect: [WinError 64] The specified network name is no longer available
+2025-07-09 22:55:40,838 - telethon.network.mtprotosender - INFO - Connecting to 149.154.167.91:443/TcpFull...
+2025-07-09 22:55:41,046 - telethon.network.mtprotosender - INFO - Connection to 149.154.167.91:443/TcpFull complete!
+2025-07-09 22:55:41,299 - telethon.network.mtprotostate - WARNING - Server resent the older message 7525188746976908289, ignoring
+2025-07-09 23:12:42,322 - telethon.network.mtprotosender - INFO - Disconnecting from 149.154.167.91:443/TcpFull...
+2025-07-09 23:12:42,328 - telethon.network.mtprotosender - INFO - Disconnection from 149.154.167.91:443/TcpFull complete!

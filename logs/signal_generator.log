@@ -1,0 +1,4 @@
+2025-07-09 13:21:14,038 - signal_generator - ERROR - Login failed: (-6, 'Terminal: Authorization failed')
+2025-07-09 13:22:24,433 - signal_generator - ERROR - MT5 init failed: (-6, 'Terminal: Authorization failed')
+2025-07-09 13:30:12,221 - signal_generator - ERROR - MT5 init failed: (-6, 'Terminal: Authorization failed')
+2025-07-09 13:38:26,175 - signal_generator - INFO - Connected to MT5 for signal generation

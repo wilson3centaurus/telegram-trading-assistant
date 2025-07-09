@@ -13,39 +13,62 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class SignalParser:
+    SYMBOL_MAP = {
+        'GOLD': 'XAUUSD',
+        'XAUUSD': 'XAUUSD',
+        'GOLD/USD': 'XAUUSD',
+        'BOOM': 'BOOM500',
+        'CRASH': 'CRASH500'
+    }
+
     @staticmethod
     def parse_signal(message: str) -> Optional[Dict]:
         try:
-            # Pattern for signals like: "Gold Sell Now: 3343 - 3346 SL: 3348 TP1: 3341 TP2: 3339"
-            pattern = r"""
-                (?P<symbol>[A-Za-z]+)\s+          # Symbol (e.g., Gold, BTCUSD)
-                (?P<action>Buy|Sell)\s+           # Action (Buy/Sell)
-                (?:Now|Entry)\s*:\s*              # Optional "Now" or "Entry" keyword
-                (?P<entry_min>\d+\.?\d*)\s*-\s*  # Entry min price
-                (?P<entry_max>\d+\.?\d*)\s+       # Entry max price
-                SL\s*:\s*(?P<sl>\d+\.?\d*)\s+    # Stop Loss
-                TP1\s*:\s*(?P<tp1>\d+\.?\d*)\s+  # Take Profit 1
-                (?:TP2\s*:\s*(?P<tp2>\d+\.?\d*)\s*)?  # Optional Take Profit 2
-            """
+            # Normalize message
+            clean_msg = re.sub(r'[^\w\s\.-]', ' ', message.upper())
             
-            match = re.search(pattern, message, re.VERBOSE | re.IGNORECASE)
-            if not match:
-                logger.warning(f"No signal pattern found in message: {message}")
+            # Extract symbol
+            symbol_match = re.search(r'(GOLD|XAUUSD|BOOM\d*|CRASH\d*)', clean_msg)
+            if not symbol_match:
                 return None
-                
-            signal = {
-                'symbol': match.group('symbol').upper(),
-                'action': match.group('action').upper(),
-                'entry_min': float(match.group('entry_min')),
-                'entry_max': float(match.group('entry_max')),
-                'sl': float(match.group('sl')),
-                'tp1': float(match.group('tp1')),
-                'tp2': float(match.group('tp2')) if match.group('tp2') else None
+            symbol = SignalParser.SYMBOL_MAP.get(symbol_match.group(1), symbol_match.group(1))
+
+            # Extract action
+            action_match = re.search(r'\b(BUY|SELL|LONG|SHORT)\b', clean_msg)
+            if not action_match:
+                return None
+            action = 'BUY' if action_match.group(1) in ['BUY', 'LONG'] else 'SELL'
+
+            # Extract entry prices (handles both ranges and single prices)
+            entry_prices = re.findall(r'(\d+\.?\d*)', clean_msg.split(action_match.group(1))[-1])
+            if len(entry_prices) >= 2:
+                entry_min, entry_max = float(entry_prices[0]), float(entry_prices[1])
+            elif entry_prices:
+                entry_min = entry_max = float(entry_prices[0])
+            else:
+                return None
+
+            # Extract SL (more robust pattern)
+            sl_match = re.search(r'(?:SL|STOP\s*LOSS)[\s:]*(\d+\.?\d*)', clean_msg)
+            sl = float(sl_match.group(1)) if sl_match else None
+
+            # Extract TPs (gets all TP values)
+            tp_matches = re.finditer(r'(?:TP\d*|TAKE\s*PROFIT)[\s:]*(\d+\.?\d*)', clean_msg)
+            tps = [float(m.group(1)) for m in tp_matches]
+
+            if not all([symbol, action, sl, tps]):
+                return None
+
+            return {
+                'symbol': symbol,
+                'action': action,
+                'entry_min': min(entry_min, entry_max),
+                'entry_max': max(entry_min, entry_max),
+                'sl': sl,
+                'tp1': tps[0],
+                'tp2': tps[1] if len(tps) > 1 else None
             }
-            
-            logger.info(f"Successfully parsed signal: {signal}")
-            return signal
-            
+
         except Exception as e:
-            logger.error(f"Error parsing signal: {str(e)}")
+            logger.error(f"Parse error: {str(e)}")
             return None
