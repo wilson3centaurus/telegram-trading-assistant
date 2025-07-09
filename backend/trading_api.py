@@ -93,7 +93,7 @@ class TradingAPI:
                 "tp": signal['tp1'],
                 "deviation": self._calculate_deviation(symbol),
                 "magic": 123456,
-                "comment": "AutoTrade",
+                "comment": "Tau Core System AutoTrade",
                 "type_time": mt5.ORDER_TIME_GTC,
             }
 
@@ -161,18 +161,6 @@ class TradingAPI:
             point = mt5.symbol_info(symbol).point
             min_distance = 10 * point  # Minimum 10 pips distance
             
-            # For BUY orders
-            '''
-            if price > 0 and sl > 0:
-                if (price - sl) < min_distance:
-                    logger.error(f"SL too close! Needs at least {min_distance} distance")
-                    return False
-            
-            if price > 0 and tp > 0:
-                if (tp - price) < min_distance if price < tp else (price - tp) < min_distance:
-                    logger.error(f"TP too close! Needs at least {min_distance} distance")
-                    return False
-            '''
             return True
         except Exception as e:
             logger.error(f"Stop validation error: {str(e)}")

@@ -50,3 +50,17 @@ MONITORED_CHANNELS = [int(x) for x in os.getenv('MONITORED_CHANNELS', '').split(
 
 # Database
 DATABASE_PATH = os.path.join(os.path.dirname(__file__), 'trades.db')
+
+
+# For BUY orders
+'''
+if price > 0 and sl > 0:
+    if (price - sl) < min_distance:
+        logger.error(f"SL too close! Needs at least {min_distance} distance")
+        return False
+
+if price > 0 and tp > 0:
+    if (tp - price) < min_distance if price < tp else (price - tp) < min_distance:
+        logger.error(f"TP too close! Needs at least {min_distance} distance")
+        return False
+'''

@@ -1,9 +1,11 @@
+# This file is only used for testing real signals, it generates fake signals for testing purposes.
+
 import random
 import asyncio
 import logging
 from datetime import datetime
 import MetaTrader5 as mt5
-from config import MT5_SERVER, MT5_LOGIN, MT5_PASSWORD  # Use your existing config
+from config import MT5_SERVER, MT5_LOGIN, MT5_PASSWORD
 
 # Setup logging
 logging.basicConfig(
@@ -48,7 +50,7 @@ class SignalGenerator:
     def generate_valid_stops(self, action, current_price):
         """Generate stops that comply with broker rules"""
         point = mt5.symbol_info(self.symbol).point
-        min_distance = self.min_stop_distance  # Using our fixed minimum distance
+        min_distance = self.min_stop_distance
         
         if action == "BUY":
             sl = current_price - min_distance * random.uniform(1.5, 3)
@@ -104,10 +106,10 @@ async def main():
     generator = SignalGenerator()
     while True:
         await generator.generate_and_save_signal()
-        await asyncio.sleep(5)  # Generate every 30 seconds
+        await asyncio.sleep(5)  # Generate every 5 seconds
 
 if __name__ == "__main__":
     try:
         asyncio.run(main())
     except KeyboardInterrupt:
-        logger.info("Signal generator stopped by user")
+        logger.info("Fake Signal generator stopped by user")
