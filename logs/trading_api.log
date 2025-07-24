@@ -1,0 +1,171 @@
+2025-07-24 16:46:27,391 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-24 16:46:27,410 - trading_api - INFO - Connected to MT5
+2025-07-24 16:46:27,485 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-24 16:46:29,112 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-24 16:46:29,112 - telegram_monitor - INFO - === Monitored Channels ===
+2025-07-24 16:46:29,112 - telegram_monitor - INFO -  • Adam Trader (ID: -1001979633557)
+2025-07-24 16:46:29,112 - telegram_monitor - INFO -  • Bluebull Trader (ID: -1001454616797)
+2025-07-24 16:46:29,112 - telegram_monitor - INFO -  • Golder Snipers (ID: -1001313672961)
+2025-07-24 16:46:29,119 - telegram_monitor - INFO -  • Tau Core (ID: -1002310471028)
+2025-07-24 16:46:29,119 - telegram_monitor - INFO -  • Farooq Gold Master (ID: -1001727095970)
+2025-07-24 16:46:29,119 - telegram_monitor - INFO -  • Day Trading Academy (ID: -1001678550622)
+2025-07-24 16:46:29,119 - telegram_monitor - INFO -  • Gold Empire (ID: -1001680297592)
+2025-07-24 16:46:29,119 - telegram_monitor - INFO -  • Rio Traders (ID: -1001348564602)
+2025-07-24 16:46:29,120 - telegram_monitor - INFO -  • Rio Traders (ID: -1001348564602)
+2025-07-24 16:46:29,120 - telegram_monitor - INFO -  • Market Makers (ID: -1001230054900)
+2025-07-24 16:46:29,120 - telegram_monitor - INFO -  • United Kings (ID: -1002176701424)
+2025-07-24 16:46:29,120 - telegram_monitor - INFO -  • Gold Snipers Signals (ID: -1001584939836)
+2025-07-24 16:46:29,120 - telegram_monitor - INFO -  • Sure Shot Gold (ID: -1001588519179)
+2025-07-24 16:46:29,120 - telegram_monitor - INFO -  • Mafia Markerts (ID: -1001853260470)
+2025-07-24 16:46:29,121 - telegram_monitor - INFO -  • Trader's Circle (ID: -1001649102395)
+2025-07-24 16:46:29,121 - telegram_monitor - INFO -  • Ben GT (ID: -1001765226347)
+2025-07-24 16:46:29,121 - telegram_monitor - INFO -  • Farooq Gold Master (ID: -1001727095970)
+2025-07-24 16:46:29,121 - telegram_monitor - INFO -  • James Gold Master (ID: -1001604309645)
+2025-07-24 16:46:29,121 - telegram_monitor - INFO -  • Novatrades Int. (ID: -1001780474473)
+2025-07-24 16:46:29,121 - telegram_monitor - INFO -  • Grow Trading (ID: -1001920020352)
+2025-07-24 16:46:29,123 - telegram_monitor - INFO -  • Henry Gold Digger (ID: -1002070456268)
+2025-07-24 16:46:29,123 - telegram_monitor - INFO -  • Gary Gold Trader (ID: -1001774783341)
+2025-07-24 16:46:29,123 - telegram_monitor - INFO -  • Vincent Gold Trader (ID: -1001927294039)
+2025-07-24 16:46:29,123 - telegram_monitor - INFO -  • Top 1% Trades (ID: -1002144761347)
+2025-07-24 16:46:29,123 - telegram_monitor - INFO -  • Chief Pablo Trader (ID: -1001897903474)
+2025-07-24 16:46:29,123 - telegram_monitor - INFO -  • Arixander X Signals (ID: -1001949888064)
+2025-07-24 16:46:29,123 - telegram_monitor - INFO -  • Fabio GT (ID: -1001548697299)
+2025-07-24 16:46:29,124 - telegram_monitor - INFO -  • Project 7 (ID: -1002109688314)
+2025-07-24 16:46:29,124 - telegram_monitor - INFO - ==========================
+2025-07-24 16:46:29,124 - telegram_monitor - INFO - Active monitoring started...
+2025-07-24 16:46:35,662 - telegram_monitor - INFO - New message from [Tau Core]: hii
+2025-07-24 16:46:35,662 - telegram_monitor - INFO - [Tau Core] Signal parsed: (False, 'No valid action found')
+2025-07-24 16:46:35,680 - trading_api - INFO - Connected to MT5
+2025-07-24 16:46:35,680 - trading_api - ERROR - Trade execution error for unknown symbol: tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\trading_api.py", line 83, in execute_trade
+    symbol = self._normalize_symbol(signal['symbol'])
+TypeError: tuple indices must be integers or slices, not str
+2025-07-24 16:46:35,694 - telegram_monitor - ERROR - Error processing message from Tau Core: tuple indices must be integers or slices, not str
+2025-07-24 16:46:35,695 - notifier - INFO - Notification sent: Error processing message from Tau Core: tuple indices must be integers or slices, not str
+2025-07-24 16:47:12,435 - telegram_monitor - INFO - New message from [Tau Core]: ⚡️ SCALP ALERT ⚡️
+XAU/USD SHORT SETUP 📉
+Current: 3375.20
+❌ STOP → 3382.50
+✅ T1 → 3368.40  
+✅ T2 → 3361.80
+2025-07-24 16:47:12,862 - telegram_monitor - INFO - [Tau Core] Signal parsed: (True, 'Trade executed: 4319422476')
+2025-07-24 16:47:12,884 - trading_api - INFO - Connected to MT5
+2025-07-24 16:47:12,885 - trading_api - ERROR - Trade execution error for unknown symbol: tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\trading_api.py", line 83, in execute_trade
+    symbol = self._normalize_symbol(signal['symbol'])
+TypeError: tuple indices must be integers or slices, not str
+2025-07-24 16:47:12,886 - telegram_monitor - ERROR - Error processing message from Tau Core: tuple indices must be integers or slices, not str
+2025-07-24 16:47:12,888 - notifier - INFO - Notification sent: Error processing message from Tau Core: tuple indices must be integers or slices, not str
+2025-07-24 16:47:36,943 - telegram_monitor - INFO - New message from [Tau Core]: 🔥 GOLD ANALYSIS 🔥
+🟢 BUY ZONE ACTIVATED
+📍 Support Zone: 3340-3350 
+⛔️ Risk Management: 3330
+🎯 Targets: 3365 | 3380 | 3395
+💡 Entry on any dip to support zone
+2025-07-24 16:47:37,366 - telegram_monitor - INFO - [Tau Core] Signal parsed: (True, 'Trade executed: 4319422944')
+2025-07-24 16:47:37,391 - trading_api - INFO - Connected to MT5
+2025-07-24 16:47:37,391 - trading_api - ERROR - Trade execution error for unknown symbol: tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\trading_api.py", line 83, in execute_trade
+    symbol = self._normalize_symbol(signal['symbol'])
+TypeError: tuple indices must be integers or slices, not str
+2025-07-24 16:47:37,392 - telegram_monitor - ERROR - Error processing message from Tau Core: tuple indices must be integers or slices, not str
+2025-07-24 16:47:37,393 - notifier - INFO - Notification sent: Error processing message from Tau Core: tuple indices must be integers or slices, not str
+2025-07-24 16:49:29,195 - telegram_monitor - INFO - New message from [Gold Empire]: Money snatched from **GOLD** just by today...😱
+
+**Smaller risk bigger profits...!!****💯**
+2025-07-24 16:49:29,195 - telegram_monitor - INFO - [Gold Empire] Signal parsed: (False, 'No valid action found')
+2025-07-24 16:49:29,210 - trading_api - INFO - Connected to MT5
+2025-07-24 16:49:29,221 - trading_api - ERROR - Trade execution error for unknown symbol: tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\trading_api.py", line 83, in execute_trade
+    symbol = self._normalize_symbol(signal['symbol'])
+TypeError: tuple indices must be integers or slices, not str
+2025-07-24 16:49:29,222 - telegram_monitor - ERROR - Error processing message from Gold Empire: tuple indices must be integers or slices, not str
+2025-07-24 16:49:29,224 - notifier - INFO - Notification sent: Error processing message from Gold Empire: tuple indices must be integers or slices, not str
+2025-07-24 16:50:29,263 - telegram_monitor - INFO - New message from [Mafia Markerts]: 
+2025-07-24 16:50:29,265 - telegram_monitor - INFO - [Mafia Markerts] Signal parsed: (False, 'No valid action found')
+2025-07-24 16:50:29,286 - trading_api - INFO - Connected to MT5
+2025-07-24 16:50:29,287 - trading_api - ERROR - Trade execution error for unknown symbol: tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\trading_api.py", line 83, in execute_trade
+    symbol = self._normalize_symbol(signal['symbol'])
+TypeError: tuple indices must be integers or slices, not str
+2025-07-24 16:50:29,288 - telegram_monitor - ERROR - Error processing message from Mafia Markerts: tuple indices must be integers or slices, not str
+2025-07-24 16:50:29,290 - notifier - INFO - Notification sent: Error processing message from Mafia Markerts: tuple indices must be integers or slices, not str
+2025-07-24 16:52:29,244 - telegram_monitor - INFO - New message from [Sure Shot Gold]: XAUUSD FULL **TP HIT 240+ PIPS** PROFIT GAINED** ****❤️‍🔥****❤️‍🔥****💯**
+2025-07-24 16:52:29,244 - telegram_monitor - INFO - [Sure Shot Gold] Signal parsed: (False, 'No valid action found')
+2025-07-24 16:52:29,267 - trading_api - INFO - Connected to MT5
+2025-07-24 16:52:29,267 - trading_api - ERROR - Trade execution error for unknown symbol: tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\trading_api.py", line 83, in execute_trade
+TypeError: tuple indices must be integers or slices, not str
+2025-07-24 16:52:29,287 - telegram_monitor - ERROR - Error processing message from Sure Shot Gold: tuple indices must be integers or slices, not str
+2025-07-24 16:52:29,288 - notifier - INFO - Notification sent: Error processing message from Sure Shot Gold: tuple indices must be integers or slices, not str
+2025-07-24 17:00:29,376 - telethon.network.connection.connection - WARNING - Server closed the connection: [WinError 64] The specified network name is no longer available
+2025-07-24 17:07:57,929 - __main__ - INFO - Starting Telegram Trading Assistant...
+2025-07-24 17:07:57,935 - trading_api - INFO - Connected to MT5
+2025-07-24 17:07:57,980 - notifier - INFO - Notification sent: Telegram Trading Assistant started successfully
+2025-07-24 17:07:59,587 - telegram_monitor - INFO - Telegram client started successfully
+2025-07-24 17:07:59,587 - telegram_monitor - INFO - === Monitored Channels ===
+2025-07-24 17:07:59,587 - telegram_monitor - INFO -  • Adam Trader (ID: -1001979633557)
+2025-07-24 17:07:59,587 - telegram_monitor - INFO -  • Bluebull Trader (ID: -1001454616797)
+2025-07-24 17:07:59,587 - telegram_monitor - INFO -  • Golder Snipers (ID: -1001313672961)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Tau Core (ID: -1002310471028)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Farooq Gold Master (ID: -1001727095970)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Day Trading Academy (ID: -1001678550622)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Gold Empire (ID: -1001680297592)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Rio Traders (ID: -1001348564602)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Rio Traders (ID: -1001348564602)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Market Makers (ID: -1001230054900)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • United Kings (ID: -1002176701424)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Gold Snipers Signals (ID: -1001584939836)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Sure Shot Gold (ID: -1001588519179)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Mafia Markerts (ID: -1001853260470)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Trader's Circle (ID: -1001649102395)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Ben GT (ID: -1001765226347)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • Farooq Gold Master (ID: -1001727095970)
+2025-07-24 17:07:59,592 - telegram_monitor - INFO -  • James Gold Master (ID: -1001604309645)
+2025-07-24 17:07:59,604 - telegram_monitor - INFO -  • Novatrades Int. (ID: -1001780474473)
+2025-07-24 17:07:59,605 - telegram_monitor - INFO -  • Grow Trading (ID: -1001920020352)
+2025-07-24 17:07:59,607 - telegram_monitor - INFO -  • Henry Gold Digger (ID: -1002070456268)
+2025-07-24 17:07:59,608 - telegram_monitor - INFO -  • Gary Gold Trader (ID: -1001774783341)
+2025-07-24 17:07:59,608 - telegram_monitor - INFO -  • Vincent Gold Trader (ID: -1001927294039)
+2025-07-24 17:07:59,608 - telegram_monitor - INFO -  • Top 1% Trades (ID: -1002144761347)
+2025-07-24 17:07:59,608 - telegram_monitor - INFO -  • Chief Pablo Trader (ID: -1001897903474)
+2025-07-24 17:07:59,612 - telegram_monitor - INFO -  • Arixander X Signals (ID: -1001949888064)
+2025-07-24 17:07:59,612 - telegram_monitor - INFO -  • Fabio GT (ID: -1001548697299)
+2025-07-24 17:07:59,612 - telegram_monitor - INFO -  • Project 7 (ID: -1002109688314)
+2025-07-24 17:07:59,612 - telegram_monitor - INFO - ==========================
+2025-07-24 17:07:59,616 - telegram_monitor - INFO - Active monitoring started...
+2025-07-24 17:08:11,354 - telegram_monitor - INFO - New message from [Tau Core]: BUY Signal for XAUUSD
+Entry Zone: 3373.4900000000002-3374.89
+Stop Loss: 3372.85
+Take Profit 1: 3375.54
+Take Profit 2: 3377.04
+Take Profit 3: 3378.54
+Take Profit 4: 3380.04
+2025-07-24 17:08:11,868 - telegram_monitor - INFO - [Tau Core] Signal parsed: (True, 'Trade executed: 4319445477')
+2025-07-24 17:08:11,892 - trading_api - INFO - Connected to MT5
+2025-07-24 17:08:11,892 - trading_api - ERROR - Trade execution error for unknown symbol: tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\trading_api.py", line 83, in execute_trade
+    symbol = self._normalize_symbol(signal['symbol'])
+TypeError: tuple indices must be integers or slices, not str
+2025-07-24 17:08:11,892 - telegram_monitor - ERROR - Error processing message from Tau Core: tuple indices must be integers or slices, not str
+2025-07-24 17:08:11,892 - notifier - INFO - Notification sent: Error processing message from Tau Core: tuple indices must be integers or slices, not str
+2025-07-24 17:08:59,600 - telegram_monitor - INFO - New message from [Vincent Gold Trader]: **Haven’t joined our VIP CLUB yet?**
+Well… what are you waiting for? 😏
+
+🔥 You can join us for **#FREE** — zero cost, all value!
+2025-07-24 17:08:59,600 - telegram_monitor - INFO - [Vincent Gold Trader] Signal parsed: (False, 'No valid action found')
+2025-07-24 17:08:59,624 - trading_api - INFO - Connected to MT5
+2025-07-24 17:08:59,625 - trading_api - ERROR - Trade execution error for unknown symbol: tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "C:\Users\XO\Desktop\telegram-trading-assistant\backend\trading_api.py", line 83, in execute_trade
+    symbol = self._normalize_symbol(signal['symbol'])
+TypeError: tuple indices must be integers or slices, not str
+2025-07-24 17:08:59,626 - telegram_monitor - ERROR - Error processing message from Vincent Gold Trader: tuple indices must be integers or slices, not str
+2025-07-24 17:08:59,628 - notifier - INFO - Notification sent: Error processing message from Vincent Gold Trader: tuple indices must be integers or slices, not str

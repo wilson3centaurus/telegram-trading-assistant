@@ -1,0 +1,250 @@
+import re
+import logging
+from typing import Dict, Optional, List, Tuple
+
+class UTF8StreamHandler(logging.StreamHandler):
+    def emit(self, record):
+        try:
+            msg = self.format(record)
+            stream = self.stream
+            stream.write(msg.encode('utf-8').decode('utf-8') + self.terminator)
+            self.flush()
+        except Exception:
+            self.handleError(record)
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('../logs/signal_parser.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+class SignalParser:
+    SYMBOL_MAP = {
+        'GOLD': 'XAUUSD',
+        'XAUUSD': 'XAUUSD',
+        'XAU/USD': 'XAUUSD',
+        'GOLD/USD': 'XAUUSD',
+        'XAU': 'XAUUSD',
+        'GOLDSPOT': 'XAUUSD',
+    }
+
+    @staticmethod
+    def parse_signal(message: str) -> Optional[Dict]:
+        try:
+            # Clean and normalize message
+            clean_msg = SignalParser._preprocess_message(message)
+            logger.info(f"Parsing message: {clean_msg[:100]}...")
+
+            # Extract all components
+            symbol = SignalParser._extract_symbol(clean_msg)
+            action = SignalParser._extract_action(clean_msg)
+            entry_min, entry_max = SignalParser._extract_entry_prices(clean_msg, action)
+            sl = SignalParser._extract_stop_loss(clean_msg)
+            tps = SignalParser._extract_take_profits(clean_msg)
+
+            # Validate required components
+            if not all([symbol, action, entry_min, sl, tps]):
+                missing = []
+                if not symbol: missing.append("symbol")
+                if not action: missing.append("action")
+                if not entry_min: missing.append("entry price")
+                if not sl: missing.append("stop loss")
+                if not tps: missing.append("take profit")
+                logger.warning(f"Missing components: {', '.join(missing)}")
+                return None
+
+            # Process TPs (limit to first 2, handle OPEN case)
+            processed_tps = []
+            for tp in tps[:2]:  # Only take first two TPs
+                if tp == -1:  # OPEN TP marker
+                    avg_entry = (entry_min + entry_max) / 2 if entry_max else entry_min
+                    tp_value = avg_entry + (10 if action == 'BUY' else -10)
+                    processed_tps.append(tp_value)
+                else:
+                    processed_tps.append(tp)
+
+            signal = {
+                'symbol': symbol,
+                'action': action,
+                'entry_min': entry_min,
+                'entry_max': entry_max if entry_max else entry_min,
+                'sl': sl,
+                'tp1': processed_tps[0],
+                'tp2': processed_tps[1] if len(processed_tps) > 1 else None
+            }
+            
+            logger.info(f"Successfully parsed signal: {signal}")
+            return signal
+
+        except Exception as e:
+            logger.error(f"Parse error: {str(e)}", exc_info=True)
+            return None
+
+    @staticmethod
+    def _preprocess_message(message: str) -> str:
+        """Normalize message text for parsing"""
+        # Remove HTML/script tags
+        clean_msg = re.sub(r'<[^>]+>', '', message)
+        # Replace common problematic characters
+        clean_msg = clean_msg.replace('–', '-').replace('—', '-').replace('  ', ' ')
+        # Remove emojis and special chars but keep numbers, letters, and basic punctuation
+        clean_msg = re.sub(r'[^\w\s@:.\-/,]', ' ', clean_msg, flags=re.UNICODE)
+        # Normalize case and spacing
+        clean_msg = clean_msg.upper().strip()
+        # Collapse multiple spaces
+        clean_msg = re.sub(r'\s+', ' ', clean_msg)
+        return clean_msg
+
+    @staticmethod
+    def _extract_symbol(message: str) -> Optional[str]:
+        """Extract trading symbol with multiple pattern support"""
+        # Try all possible symbol patterns
+        symbol_patterns = [
+            # XAU/USD format
+            r'\b(XAU\s*[/\\]\s*USD)\b',
+            # Common gold formats
+            r'\b(GOLD|XAUUSD|XAU\s*USD|GOLD\s*[/\\]\s*USD)\b',
+            # Other symbols
+            r'\b(BOOM\d*|CRASH\d*)\b',
+            # Forex pairs
+            r'\b([A-Z]{3}\s*[/\\]\s*[A-Z]{3})\b',
+            # Standalone XAU
+            r'(?<!\w)(XAU)(?!\w)',
+            # Gold in different contexts
+            r'(?:TRADE|BUY|SELL)\s+(GOLD)\b',
+            r'(GOLD)\s+(?:BUY|SELL)\b'
+        ]
+        
+        for pattern in symbol_patterns:
+            match = re.search(pattern, message)
+            if match:
+                symbol = re.sub(r'\s+', '', match.group(1))  # Remove spaces
+                return SignalParser.SYMBOL_MAP.get(symbol, symbol)
+        
+        return None
+
+    @staticmethod
+    def _extract_action(message: str) -> Optional[str]:
+        """Extract trading action with flexible matching"""
+        # Look for action in different contexts
+        action_patterns = [
+            # Explicit action words
+            r'\b(BUY|SELL|LONG|SHORT)\b',
+            # Action with symbol
+            r'(?:GOLD|XAUUSD)\s+(BUY|SELL)',
+            # Action in trade context
+            r'TRADE\s+(BUY|SELL)',
+            # Action with NOW
+            r'(BUY|SELL)\s+NOW',
+            # Action with @ symbol
+            r'(BUY|SELL)\s+@',
+            # Direction indicators
+            r'DIRECTION\s*:\s*(BUY|SELL|LONG|SHORT)',
+            # Dominance patterns
+            r'(SELLERS|SHORTS)\s+WILL\s+DOMINATE',
+            # Zone patterns
+            r'(BUY|SELL)\s+ZONE',
+            # Command patterns
+            r'GO\s+(LONG|SHORT)'
+        ]
+        
+        for pattern in action_patterns:
+            match = re.search(pattern, message)
+            if match:
+                action_word = match.group(1).upper() if match.lastindex else match.group(0)
+                if any(x in action_word for x in ['SELL', 'SHORT']):
+                    return 'SELL'
+                elif any(x in action_word for x in ['BUY', 'LONG']):
+                    return 'BUY'
+        
+        return None
+
+    @staticmethod
+    def _extract_entry_prices(message: str, action: str) -> Tuple[Optional[float], Optional[float]]:
+        """Extract entry prices with multiple format support"""
+        # Try different price patterns
+        price_patterns = [
+            # Range patterns (3366.3-3371.3)
+            r'(\d+\.?\d*)\s*[-–]\s*(\d+\.?\d*)',
+            # With @ symbol (@3366.3-3371.3)
+            r'@\s*(\d+\.?\d*)\s*[-–]\s*(\d+\.?\d*)',
+            # Single price after action
+            r'(?:BUY|SELL)\s+(?:\w+\s+)?(\d+\.?\d*)',
+            # Entry level patterns
+            r'ENTRY\s*(?:LEVEL|POINT|PRICE)\s*[:@]?\s*(\d+\.?\d*)',
+            # Now at price
+            r'NOW\s+(?:AT|@)\s*(\d+\.?\d*)',
+            # Price after symbol
+            r'(?:GOLD|XAUUSD)\s+(?:\w+\s+)?(\d+\.?\d*)',
+            # ZONE patterns
+            r'ZONE\s*[:@]?\s*(\d+\.?\d*)\s*[-–]\s*(\d+\.?\d*)'
+        ]
+        
+        for pattern in price_patterns:
+            match = re.search(pattern, message)
+            if match:
+                try:
+                    price1 = float(match.group(1).replace(',', ''))
+                    if match.lastindex > 1:
+                        price2 = float(match.group(2).replace(',', ''))
+                        return (min(price1, price2), max(price1, price2))
+                    return (price1, price1)
+                except (ValueError, AttributeError):
+                    continue
+        
+        return None, None
+
+    @staticmethod
+    def _extract_stop_loss(message: str) -> Optional[float]:
+        """Extract stop loss with multiple format support"""
+        sl_patterns = [
+            r'SL\s*[:@]?\s*(\d+\.?\d*)',
+            r'STOP\s*LOSS?\s*[:@]?\s*(\d+\.?\d*)',
+            r'STOP\s*[:@]?\s*(\d+\.?\d*)',
+            r'RISK\s*[:@]?\s*(\d+\.?\d*)',
+            r'❌\s*(\d+\.?\d*)',  # Stop loss with X emoji
+            r'LOSS?\s*[:@]?\s*(\d+\.?\d*)'
+        ]
+        
+        for pattern in sl_patterns:
+            match = re.search(pattern, message)
+            if match:
+                try:
+                    return float(match.group(1).replace(',', ''))
+                except (ValueError, AttributeError):
+                    continue
+        
+        return None
+
+    @staticmethod
+    def _extract_take_profits(message: str) -> List[float]:
+        """Extract take profit levels with multiple format support"""
+        tp_patterns = [
+            r'TP\d?\s*[:@]?\s*(\d+\.?\d*)',  # TP1: 1234
+            r'TAKE\s*PROFIT\s*\d?\s*[:@]?\s*(\d+\.?\d*)',
+            r'TARGET\s*\d?\s*[:@]?\s*(\d+\.?\d*)',
+            r'PROFIT\s*[:@]?\s*(\d+\.?\d*)',
+            r'✅\s*(\d+\.?\d*)',  # TP with checkmark
+            r'TP\s*[:@]?\s*(OPEN)',  # OPEN TP case
+            r'TAKE\s*PROFIT\s*[:@]?\s*(OPEN)'
+        ]
+        
+        tps = []
+        for pattern in tp_patterns:
+            matches = re.finditer(pattern, message)
+            for match in matches:
+                if match.group(1).upper() == 'OPEN':
+                    tps.append(-1)  # Marker for OPEN TP
+                else:
+                    try:
+                        tp = float(match.group(1).replace(',', ''))
+                        if tp not in tps:  # Avoid duplicates
+                            tps.append(tp)
+                    except (ValueError, AttributeError):
+                        continue
+        
+        return sorted(tps)  # Return sorted list

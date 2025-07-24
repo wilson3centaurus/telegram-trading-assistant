@@ -2,18 +2,7 @@ import MetaTrader5 as mt5
 import logging
 from typing import Dict, Optional, Tuple
 import asyncio
-from config import MT5_SERVER, MT5_LOGIN, MT5_PASSWORD, DEFAULT_LOT_SIZE, MAX_SLIPPAGE, CHANNEL_NAMES, MONITORED_CHANNELS
-
-class UTF8StreamHandler(logging.StreamHandler):
-    def emit(self, record):
-        try:
-            msg = self.format(record)
-            stream = self.stream
-            stream.write(msg.encode('utf-8').decode('utf-8') + self.terminator)
-            self.flush()
-        except Exception:
-            self.handleError(record)
-
+from config import MT5_SERVER, MT5_LOGIN, MT5_PASSWORD, DEFAULT_LOT_SIZE, MAX_SLIPPAGE
 
 logging.basicConfig(
     level=logging.INFO,
@@ -27,7 +16,6 @@ logger = logging.getLogger(__name__)
 
 class TradingAPI:
     VOLATILITY_SYMBOLS = ['BOOM500', 'CRASH500']
-    MAX_COMMENT_LENGTH = 32  # MT5 typically has a limit on comment length
     
     def __init__(self):
         self.connected = False
@@ -43,13 +31,6 @@ class TradingAPI:
         elif 'CRASH' in symbol:
             return 'CRASH500'
         return symbol
-
-    def _sanitize_comment(self, comment: str) -> str:
-        """Ensure comment meets MT5 requirements"""
-        # Remove any non-ASCII characters
-        comment = comment.encode('ascii', 'ignore').decode('ascii')
-        # Trim to maximum allowed length
-        return comment[:self.MAX_COMMENT_LENGTH]
 
     async def connect(self) -> bool:
         """Establish connection to MT5"""
@@ -100,7 +81,6 @@ class TradingAPI:
             # Validate stops
             if not await self._validate_stops(symbol, entry_price, signal['sl'], signal['tp1']):
                 return False, "Invalid stop levels"
-            
 
             # Build trade request
             request = {
@@ -113,7 +93,7 @@ class TradingAPI:
                 "tp": signal['tp1'],
                 "deviation": self._calculate_deviation(symbol),
                 "magic": 123456,
-                "comment": "Tau Core System",
+                "comment": "Tau Core System AutoTrade",
                 "type_time": mt5.ORDER_TIME_GTC,
             }
 
@@ -134,7 +114,6 @@ class TradingAPI:
             logger.error(error_msg, exc_info=True)
             return False, error_msg
 
-    # ... (rest of your existing methods remain the same)
     def _calculate_deviation(self, symbol: str) -> int:
         """Calculate appropriate slippage tolerance"""
         base_deviation = MAX_SLIPPAGE
@@ -180,7 +159,8 @@ class TradingAPI:
         """Validate stop levels against broker requirements"""
         try:
             point = mt5.symbol_info(symbol).point
-            min_distance = 10 * point
+            min_distance = 10 * point  # Minimum 10 pips distance
+            
             return True
         except Exception as e:
             logger.error(f"Stop validation error: {str(e)}")
@@ -193,16 +173,13 @@ class TradingAPI:
             if not symbol_info:
                 return False, "Cannot get symbol info"
             
-            # Log the request for debugging
-            logger.info(f"Sending trade request: {request}")
-            
+            # Try default filling mode first
             result = mt5.order_send(request)
             if result and result.retcode == mt5.TRADE_RETCODE_DONE:
                 return True, result
                 
-            error_msg = result.comment if result else str(mt5.last_error())
-            logger.warning(f"Trade failed: {error_msg}")
-            return False, error_msg
+            logger.warning(f"Trade failed: {result.comment if result else mt5.last_error()}")
+            return False, result.comment if result else mt5.last_error()
         except Exception as e:
             logger.error(f"Trade execution exception: {str(e)}")
             return False, str(e)
