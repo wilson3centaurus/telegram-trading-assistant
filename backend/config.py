@@ -8,6 +8,18 @@ TELEGRAM_API_ID = int(os.getenv('TELEGRAM_API_ID'))
 TELEGRAM_API_HASH = os.getenv('TELEGRAM_API_HASH')
 TELEGRAM_PHONE = os.getenv('TELEGRAM_PHONE')
 
+# Telegram connection settings
+TELEGRAM_CONNECTION_RETRIES = 5
+TELEGRAM_RETRY_DELAY = 1
+TELEGRAM_TIMEOUT = 10
+
+# Full margin configuration
+FULL_MARGIN_SETTINGS = {
+    'ENABLED': True,  # Master switch for full margin feature
+    'CHANNELS': ['Adam Trader'],  # Channels that should use full margin
+    'MULTIPLIER': 1.0  # Risk multiplier for full margin (1.0 = full margin)
+}
+
 # Trading Configuration
 MT5_SERVER = os.getenv('MT5_SERVER')
 MT5_LOGIN = int(os.getenv('MT5_LOGIN'))

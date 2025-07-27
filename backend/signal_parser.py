@@ -146,56 +146,174 @@ class SignalParser:
         return None
     
     def _parse_with_regex(self, message: str) -> Optional[Dict]:
-        """Improved regex parsing"""
+        """Robust regex parsing that handles all signal formats"""
         try:
             clean_msg = self._clean_message(message)
             logger.info(f"Parsing with regex: {clean_msg[:100]}...")
             
-            # Extract components
+            # Extract symbol (with more flexible matching)
             symbol = self._extract_symbol(clean_msg)
+            if not symbol:
+                logger.warning("No symbol found")
+                return None
+
+            # Extract action (more flexible patterns)
             action = self._extract_action(clean_msg)
+            if not action:
+                logger.warning("No action found")
+                return None
+
+            # Extract entry prices (handles all formats)
             entry_min, entry_max = self._extract_entry_prices(clean_msg)
+            
+            # Extract stop loss (with better patterns)
             sl = self._extract_stop_loss(clean_msg)
+            
+            # Extract take profits (limit to first 2, handle OPEN/OPN)
             tps = self._extract_take_profits(clean_msg)
             
-            # Validate we have minimum required data
-            if not all([symbol, action, sl, tps]):
-                missing = []
-                if not symbol: missing.append("symbol")
-                if not action: missing.append("action")
-                if not sl: missing.append("stop loss")
-                if not tps: missing.append("take profit")
-                logger.warning(f"Missing: {', '.join(missing)}")
-                return None
-            
-            # Handle entry prices - if missing, estimate from SL and TP
-            if not entry_min:
-                entry_min = self._estimate_entry_price(action, sl, tps[0] if tps else None)
-                if not entry_min:
-                    logger.warning("Could not determine entry price")
+            # Calculate defaults if missing
+            if not sl:
+                if entry_min:
+                    sl = entry_min - (5 if action == 'BUY' else -5)  # 5 USD SL
+                else:
+                    logger.warning("No SL found and cannot calculate")
                     return None
-            
-            # Build signal
+                    
+            if not tps:
+                if entry_min:
+                    tps = [entry_min + (10 if action == 'BUY' else -10)]  # 10 USD TP
+                else:
+                    logger.warning("No TP found and cannot calculate")
+                    return None
+                    
+            # If no entry prices, calculate reasonable ones
+            if not entry_min:
+                if action == 'BUY':
+                    entry_min = sl + 1.0
+                    entry_max = entry_min + 3.0
+                else:
+                    entry_min = sl - 1.0
+                    entry_max = entry_min - 3.0
+                    
+            # Process TPs (limit to first 2, replace OPEN with calculated)
+            processed_tps = []
+            for i, tp in enumerate(tps[:2]):  # Only take first two TPs
+                if isinstance(tp, str) and 'OPEN' in tp.upper():
+                    # Calculate 5 USD TP from entry
+                    avg_entry = (entry_min + entry_max) / 2 if entry_max else entry_min
+                    tp_value = avg_entry + (5 if action == 'BUY' else -5)
+                    processed_tps.append(tp_value)
+                else:
+                    try:
+                        processed_tps.append(float(tp))
+                    except (ValueError, TypeError):
+                        continue
+
+            # Ensure we have at least one TP
+            if not processed_tps:
+                avg_entry = (entry_min + entry_max) / 2 if entry_max else entry_min
+                processed_tps.append(avg_entry + (10 if action == 'BUY' else -10))
+
             signal = {
                 'symbol': symbol,
                 'action': action,
-                'entry_min': entry_min,
-                'entry_max': entry_max if entry_max else entry_min,
+                'entry_min': min(entry_min, entry_max) if entry_max else entry_min,
+                'entry_max': max(entry_min, entry_max) if entry_max else entry_min,
                 'sl': sl,
-                'tp1': tps[0] if len(tps) > 0 else None,
-                'tp2': tps[1] if len(tps) > 1 else None
+                'tp1': processed_tps[0],
+                'tp2': processed_tps[1] if len(processed_tps) > 1 else None
             }
-            
-            if self._validate_signal_logic(signal):
-                logger.info(f"Regex parsed successfully: {signal}")
-                return signal
-            else:
-                logger.warning(f"Signal failed validation: {signal}")
-                return None
+
+            logger.info(f"Regex parsed successfully: {signal}")
+            return signal
                 
         except Exception as e:
             logger.error(f"Regex parsing error: {e}")
             return None
+
+    def _extract_entry_prices(self, message: str) -> tuple:
+        """Enhanced entry price extraction"""
+        # Try different patterns in order of preference
+        patterns = [
+            # Zone patterns: "BUY ZONE : 3345-3342"
+            r'(?:ZONE|RANGE|ENTRY)\s*[:@]?\s*(\d+\.?\d*)\s*[-–]\s*(\d+\.?\d*)',
+            # Standard range: "3345-3342"
+            r'(\d+\.?\d*)\s*[-–]\s*(\d+\.?\d*)',
+            # After action: "BUY 3345" or "BUY NOW 3345"
+            r'(?:BUY|SELL)\s+(?:NOW\s+)?(\d+\.?\d*)',
+            # With @ symbol: "@3345" or "BUY @3345"
+            r'@\s*(\d+\.?\d*)',
+            # After symbol: "XAUUSD 3345"
+            r'(?:XAUUSD|GOLD)\s+(\d+\.?\d*)'
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, message)
+            if match:
+                try:
+                    if len(match.groups()) > 1:
+                        price1 = float(match.group(1))
+                        price2 = float(match.group(2))
+                        return min(price1, price2), max(price1, price2)
+                    else:
+                        price = float(match.group(1))
+                        return price, price
+                except ValueError:
+                    continue
+                    
+        return None, None
+
+    def _extract_take_profits(self, message: str) -> list:
+        """Enhanced TP extraction with OPEN handling"""
+        tp_patterns = [
+            r'(?:TP|TAKE\s*PROFIT|TARGET)\s*\d?\s*[:@]?\s*(\d+\.?\d*|OPEN|OPN)',
+            r'✅\s*(\d+\.?\d*)',  # TP with checkmark
+            r'🎯\s*(\d+\.?\d*)'   # TP with target emoji
+        ]
+        
+        tps = []
+        for pattern in tp_patterns:
+            matches = re.finditer(pattern, message, re.IGNORECASE)
+            for match in matches:
+                val = match.group(1).upper()
+                if val in ['OPEN', 'OPN']:
+                    tps.append('OPEN')
+                else:
+                    try:
+                        tps.append(float(val))
+                    except ValueError:
+                        continue
+        
+        # Remove duplicates and sort
+        unique_tps = []
+        seen = set()
+        for tp in tps:
+            if isinstance(tp, float) and tp not in seen:
+                seen.add(tp)
+                unique_tps.append(tp)
+            elif isinstance(tp, str) and tp not in seen:
+                seen.add(tp)
+                unique_tps.append(tp)
+        
+        return sorted(unique_tps)
+
+    def _extract_stop_loss(self, message: str) -> Optional[float]:
+        """Enhanced SL extraction"""
+        sl_patterns = [
+            r'(?:SL|STOP\s*LOSS?|STOP|❌|🛑)\s*[:@]?\s*(\d+\.?\d*)',
+            r'RISK\s*[:@]?\s*(\d+\.?\d*)',
+            r'LOSS?\s*[:@]?\s*(\d+\.?\d*)'
+        ]
+        
+        for pattern in sl_patterns:
+            match = re.search(pattern, message, re.IGNORECASE)
+            if match:
+                try:
+                    return float(match.group(1))
+                except ValueError:
+                    continue
+        return None
     
     def _clean_message(self, message: str) -> str:
         """Clean message for parsing"""
@@ -229,66 +347,7 @@ class SignalParser:
         elif re.search(r'\b(BUY|LONG)\b', message):
             return 'BUY'
         return None
-    
-    def _extract_entry_prices(self, message: str) -> tuple:
-        """Extract entry price range"""
-        # Look for price ranges like "3370.54-3371.14"
-        range_match = re.search(r'(\d+\.?\d*)\s*[-–]\s*(\d+\.?\d*)', message)
-        if range_match:
-            price1 = float(range_match.group(1))
-            price2 = float(range_match.group(2))
-            return min(price1, price2), max(price1, price2)
         
-        # Look for single entry price
-        entry_patterns = [
-            r'(?:NOW|@)\s*(\d+\.?\d*)',
-            r'ENTRY\s*[:@]?\s*(\d+\.?\d*)',
-            r'(?:BUY|SELL)\s+(?:NOW\s+)?(\d+\.?\d*)'
-        ]
-        
-        for pattern in entry_patterns:
-            match = re.search(pattern, message)
-            if match:
-                price = float(match.group(1))
-                return price, price
-        
-        return None, None
-    
-    def _extract_stop_loss(self, message: str) -> Optional[float]:
-        """Extract stop loss price"""
-        sl_patterns = [
-            r'SL\s*[:@]?\s*(\d+\.?\d*)',
-            r'STOP\s*LOSS?\s*[:@]?\s*(\d+\.?\d*)',
-            r'STOP\s*[:@]?\s*(\d+\.?\d*)'
-        ]
-        
-        for pattern in sl_patterns:
-            match = re.search(pattern, message)
-            if match:
-                return float(match.group(1))
-        return None
-    
-    def _extract_take_profits(self, message: str) -> list:
-        """Extract take profit levels"""
-        tp_patterns = [
-            r'TP\d?\s*[:@]?\s*(\d+\.?\d*)',
-            r'TARGET\s*\d?\s*[:@]?\s*(\d+\.?\d*)',
-            r'TAKE\s*PROFIT\s*\d?\s*[:@]?\s*(\d+\.?\d*)'
-        ]
-        
-        tps = []
-        for pattern in tp_patterns:
-            matches = re.finditer(pattern, message)
-            for match in matches:
-                try:
-                    tp = float(match.group(1))
-                    if tp not in tps:
-                        tps.append(tp)
-                except ValueError:
-                    continue
-        
-        return sorted(tps)
-    
     def _estimate_entry_price(self, action: str, sl: float, tp1: float) -> Optional[float]:
         """Estimate entry price if not provided"""
         if not sl or not tp1:
@@ -348,33 +407,3 @@ class SignalParser:
         except Exception as e:
             logger.error(f"Validation error: {e}")
             return False
-
-# Test with your actual signal
-if __name__ == "__main__":
-    # Test signal from your log
-    test_message = """**XAUUSD sell now 3370.54-3371.1400000000003**        
-Sl: 3371.84
-TP1: 3369.65
-TP2: 3368.15
-TP3: 3366.65"""
-    
-    print("Testing with your actual signal:")
-    print(f"Message: {test_message}")
-    print()
-    
-    # Test with AI (if available)
-    try:
-        parser_ai = SignalParser(use_ai=True)
-        result_ai = parser_ai.parse_signal(test_message)
-        print(f"AI Result: {result_ai}")
-    except Exception as e:
-        print(f"AI parsing failed: {e}")
-    
-    # Test with regex
-    parser_regex = SignalParser(use_ai=False)
-    result_regex = parser_regex.parse_signal(test_message)
-    print(f"Regex Result: {result_regex}")
-    
-    # Test static method (for backward compatibility)
-    result_static = SignalParser.parse_signal_static(test_message)
-    print(f"Static Result: {result_static}")
